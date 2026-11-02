@@ -1,5 +1,7 @@
 # The retail game's own files and anything extracted from them: not ours to redistribute.
-/assets/
+# (the folder itself stays, via assets/README.txt, so it exists for you to drop your files into)
+/assets/*
+!/assets/README.txt
 
 # Runtime output: save-data stubs, debug logs, and per-player settings generated on first run.
 /hdd/
