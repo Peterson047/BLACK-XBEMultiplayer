@@ -7,7 +7,7 @@ An experimental **Team Deathmatch multiplayer mod** for *Black* (2006, original 
 Community & support: [Discord](https://discord.gg/szt9HJYjDt) · [Sponsor this project](#support-this-project)
 
 > [!IMPORTANT]
-> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`fcaa603`](https://github.com/Peterson047/BLACK-Coop/commit/fcaa603)).
+> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`3cea546`](https://github.com/Peterson047/BLACK-Coop/commit/3cea546)).
 
 ## Screenshots
 
@@ -27,8 +27,9 @@ The base port is a faithful native recompile of *Black* — keyboard/mouse, a Vu
 
 - Windows 10 or 11, 64-bit.
 - A GPU with Vulkan 1.2 support (NVIDIA, AMD or Intel, with an up-to-date driver).
-- Python 3 on `PATH` — `BLACK.exe` uses it once, automatically, to build the multiplayer map/arsenal from your disc image on first run.
 - **Your own legal copy of *Black***. See below.
+
+No Python install needed — a Python runtime ships in `python\` and `BLACK.exe` uses it itself, automatically, to build the multiplayer map/arsenal from your disc image the first time it finds one.
 
 ## You need your own copy of the game
 

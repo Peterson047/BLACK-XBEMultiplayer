@@ -5,6 +5,11 @@ This binary is built on the XboxXBE-Recomp SDK (https://github.com/TGP482/XboxXB
 and statically links a few third-party libraries. Their licenses require the notices below
 to be kept with any copy of the software; none of them require releasing source code.
 
+The python\ folder is an unmodified copy of the official CPython 3.15 Windows embeddable
+package (https://www.python.org/), used at runtime to build the multiplayer map and weapon
+arsenal from your own disc image. It's under the Python Software Foundation License; the
+full text ships with it at python\LICENSE.txt.
+
 
 XboxXBE-Recomp SDK (https://github.com/TGP482/XboxXBE-Recomp)
 

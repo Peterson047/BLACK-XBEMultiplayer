@@ -9,3 +9,4 @@
 /hdd_host/
 /logs/
 /black.toml
+__pycache__/
