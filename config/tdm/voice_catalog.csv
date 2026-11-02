@@ -1,0 +1,976 @@
+in_game_id,cue_name,category,scope,ssh_rel_path,bks_rel_path,track_index,sector_offset,sector_count,duration_seconds,language,transcription
+level_00_EN#0010,MatchStart,match_flow,Team2D_BlackOps,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,10,256,48,5.093,en,Come in! Come in! We're pinned down! Receiving heavy fire! Need support!
+level_00_EN#0003,MatchStartBravo,match_flow,Team2D_BlackOps,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,3,64,32,2.542,en,"Bravo here, I'm going in."
+level_01_EN#0024,EnAreaClear,match_flow,Team2D_BlackOps,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,24,1408,32,1.985,en,"Area clear, moving in."
+level_08_EN#0007,MatchEnd,match_flow,Team2D_BlackOps,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,7,448,64,6.295,en,"This is Bravo 3. Target down. I say again, target is down. Exiting structure."
+level_06_EN#0012,EnDefeat,match_flow,Team2D_BlackOps,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,12,288,32,2.864,en,2IC is down! Get the fuck out of here!
+level_07_EN#0034,EnemyDown,kill_confirm,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,34,1088,32,2.121,en,Enemy down.
+level_07_EN#0062,EnemyDown2,kill_confirm,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,62,1936,16,1.383,en,Enemy down!
+level_07_EN#0035,TargetDown,kill_confirm,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,35,1120,32,2.481,en,Target is down. Target down.
+level_00_EN#0014,BringDown,kill_confirm,Local2D_or_Team,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,14,352,16,1.52,en,PIM DOWN!
+level_07_EN#0055,FemTargetDown,kill_confirm,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,55,1760,16,1.061,en,Target down!
+level_05_EN#0020,FemTakeOver,kill_confirm,Local2D_or_Team,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,20,944,32,2.11,en,Take cover!
+level_07_EN#0017,EnHeadshot,headshot_confirm,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,17,496,32,1.976,en,"Go for the head, they got vest on!"
+level_07_EN#0059,EnMultiKill,multikill_confirm,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,59,1856,32,3.363,en,Target down! Target down! Move! Move! Move!
+level_06_EN#0009,EnManDown,teammate_down,TeamRadio,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,9,208,32,3.105,en,Man down! Man down!
+level_07_EN#0011,FireInTheHole,grenade_hazard,Spatial3D_and_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,11,272,16,1.623,en,Fire in the hole!
+level_06_EN#0052,EnIncomingGrenade,grenade_hazard,TeamRadio,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,52,1408,32,2.269,en,Get down! Get down! Grenade!
+level_00_EN#0023,EnReloading,reload_callout,Spatial3D_and_Team,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,23,528,16,1.083,en,Reloading!
+level_00_EN#0062,EnCoverMe,reload_callout,Spatial3D_and_Team,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,62,1680,16,1.089,en,Cover me!
+level_00_EN#0032,EnContact,enemy_spotted,TeamRadio,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,32,736,32,2.144,en,Contact! Contact!
+level_07_EN#0023,RpgKeepMoving,grenade_hazard,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,23,736,32,2.17,en,"RPG, keep moving!"
+level_07_EN#0008,SniperAboveYou,grenade_hazard,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,8,192,32,1.79,en,"Sniper, above you!"
+level_07_EN#0029,MoveMoveMove,tactical_order,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,29,912,32,2.484,en,Boom! Boom! Boom! God damn it!
+level_07_EN#0085,MoveYourAss,tactical_order,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,85,2656,16,1.239,en,Move your ass!
+level_07_EN#0024,Moving,tactical_order,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,24,768,16,1.33,en,Moving.
+level_07_EN#0026,MovingCoverMe,tactical_order,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,26,816,32,2.11,en,"Move it, cover me!"
+level_07_EN#0041,KeepMeCoverInFire,tactical_order,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,41,1328,32,2.696,en,Give me covering fire!
+level_00_EN#0002,CopyThat,tactical_order,TeamRadio,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,2,48,16,1.532,en,Copy that
+level_07_EN#0044,GetFuckOutAreThere,tactical_order,TeamRadio,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,44,1424,32,2.258,en,Get the fuck out of there!
+level_07_EN#0025,GotDamage,damage_stress,Local2D_or_Team,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,25,784,32,2.768,en,Fire! Fire! God damn it!
+level_00_EN#0012,NeedFix,damage_stress,Local2D_or_Team,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,12,320,16,1.627,en,I'm your fix!
+level_07_EN#0042,AdrenalinPhrase,damage_stress,Local2D,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,42,1360,32,3.381,en,I'm going to get cut to pieces. Drop the guy in the high ground.
+global_radio#0077,RuMatchStart,match_flow,Team2D_SeventhWave,levels/global/Speech.ssh,levels/global/Speech.bks,77,1456,32,2.496,ru,Приготовиться! Погнали!
+global_radio#0242,RuToBattle,match_flow,Team2D_SeventhWave,levels/global/Speech.ssh,levels/global/Speech.bks,242,4672,16,1.324,ru,К бою!
+global_radio#0402,RuVictory,match_flow,Team2D_SeventhWave,levels/global/Speech.ssh,levels/global/Speech.bks,402,7936,16,1.55,ru,Есть захват!
+global_radio#0268,RuDefeat,match_flow,Team2D_SeventhWave,levels/global/Speech.ssh,levels/global/Speech.bks,268,5200,32,1.871,ru,Назад! Отходим!
+global_radio#0171,RuKillConfirm1,kill_confirm,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,171,3264,16,1.585,ru,Подтверждаю!
+global_radio#0433,RuKillConfirm2,kill_confirm,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,433,8560,16,1.301,ru,Валим его!
+global_radio#0172,RuKillConfirm3,kill_confirm,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,172,3280,16,1.582,ru,Уничтожь его!
+global_radio#0162,RuHeadshot,headshot_confirm,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,162,3088,16,1.529,ru,Я сниму его!
+global_radio#0304,RuMultiKill,multikill_confirm,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,304,6000,32,3.074,ru,Без паники! Мочим их!
+global_radio#0032,RuManDown,teammate_down,TeamRadio,levels/global/Speech.ssh,levels/global/Speech.bks,32,560,32,1.989,ru,Раненый на земле!
+global_radio#0273,RuGrenade1,grenade_hazard,Spatial3D_and_Team,levels/global/Speech.ssh,levels/global/Speech.bks,273,5312,16,1.428,ru,Граната!
+global_radio#0279,RuGrenade2,grenade_hazard,Spatial3D_and_Team,levels/global/Speech.ssh,levels/global/Speech.bks,279,5408,16,1.428,ru,Граната!
+global_radio#0115,RuTakeCover,grenade_hazard,TeamRadio,levels/global/Speech.ssh,levels/global/Speech.bks,115,2128,16,1.311,ru,Ложись!
+global_radio#0361,RuReloading1,reload_callout,Spatial3D_and_Team,levels/global/Speech.ssh,levels/global/Speech.bks,361,7184,16,1.384,ru,Перезаряжаюсь.
+global_radio#0357,RuReloading2,reload_callout,Spatial3D_and_Team,levels/global/Speech.ssh,levels/global/Speech.bks,357,7120,16,1.455,ru,Меняю магазин.
+global_radio#0207,RuCoverMe,reload_callout,Spatial3D_and_Team,levels/global/Speech.ssh,levels/global/Speech.bks,207,3968,16,1.409,ru,Прикрой меня!
+global_radio#0235,RuContact,enemy_spotted,TeamRadio,levels/global/Speech.ssh,levels/global/Speech.bks,235,4544,16,1.685,ru,Есть контакт!
+global_radio#0288,RuUnderFire,damage_stress,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,288,5600,32,1.872,ru,Я под огнем!
+global_radio#0026,RuNeedHelp,damage_stress,Local2D_or_Team,levels/global/Speech.ssh,levels/global/Speech.bks,26,416,32,2.981,ru,Помогите! Срочно!
+global_radio#0034,RuRadio0034,russian_chatter,TeamRadio_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,34,624,32,1.903,ru,У нас двухсотый!
+global_radio#0035,RuRadio0035,russian_chatter,TeamRadio_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,35,656,32,1.873,ru,У нас потери!
+global_radio#0051,RuRadio0051,russian_chatter,TeamRadio_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,51,992,16,1.534,ru,"Давай, давай!"
+global_radio#0083,RuRadio0083,russian_chatter,TeamRadio_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,83,1584,16,1.507,ru,У нас гости.
+global_radio#0123,RuRadio0123,russian_chatter,TeamRadio_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,123,2288,16,1.482,ru,В атаку!
+global_radio#0135,RuRadio0135,russian_chatter,TeamRadio_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,135,2544,32,2.168,ru,Прикрой! Атакой!
+global_radio#0019,DieAgonizing,physical_sfx,Spatial3D,levels/global/Speech.ssh,levels/global/Speech.bks,19,304,16,1.118,sfx,[Vocal SFX: Agonizing death scream] (HUAH!)
+global_radio#0005,AhHit,physical_sfx,Spatial3D,levels/global/Speech.ssh,levels/global/Speech.bks,5,80,16,1.062,sfx,[Vocal SFX: Sharp bullet hit grunt] (Ah!)
+global_radio#0003,PainHitFast,physical_sfx,Spatial3D,levels/global/Speech.ssh,levels/global/Speech.bks,3,48,16,0.817,sfx,[Vocal SFX: Fast impact pain grunt] (あっ)
+global_radio#0004,PunchWhistle,physical_sfx,Spatial3D,levels/global/Speech.ssh,levels/global/Speech.bks,4,64,16,1.01,sfx,[Vocal SFX: Heavy breath / melee swing] (Oh!)
+global_radio#0002,JumpOrMelee,physical_sfx,Local2D_or_3D,levels/global/Speech.ssh,levels/global/Speech.bks,2,32,16,0.847,sfx,[Vocal SFX: Jump / melee exertion grunt] (Huh!)
+level_00_EN#0000,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,0,0,16,0.827,en,WAITS UP!
+level_00_EN#0001,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,1,16,32,2.698,en,Final sweep. No contact. Over.
+level_00_EN#0004,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,4,96,16,1.633,en,Moving to intercept
+level_00_EN#0005,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,5,112,16,1.72,en,"Bromber team, sit ref!"
+level_00_EN#0006,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,6,128,32,1.903,en,Bravo! Hold and cover their sticks!
+level_00_EN#0007,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,7,160,48,4.292,en,"Charlie, sit-rep. Charlie, team, sit-rep."
+level_00_EN#0008,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,8,208,16,1.681,en,Anyone have a visual?
+level_00_EN#0009,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,9,224,32,2.104,en,"Negative. Hold your position, Bravo."
+level_00_EN#0011,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,11,304,16,1.602,en,What's your position?
+level_00_EN#0013,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,13,336,16,1.175,en,On your right!
+level_00_EN#0015,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,15,368,32,2.876,en,RPG! Rooftop! Take the shot!
+level_00_EN#0016,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,16,400,16,1.29,en,I'm going in.
+level_00_EN#0017,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,17,416,16,1.572,en,There's too many of them!
+level_00_EN#0018,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,18,432,16,1.464,en,They're everywhere!
+level_00_EN#0019,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,19,448,16,1.691,en,Take out the reinforcements!
+level_00_EN#0020,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,20,464,16,1.163,en,Move it!
+level_00_EN#0021,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,21,480,32,1.88,en,Let's get on top of it.
+level_00_EN#0022,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,22,512,16,1.63,en,Watch your left arc!
+level_00_EN#0024,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,24,544,16,1.648,en,They've got us dialed in!
+level_00_EN#0025,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,25,560,16,1.294,en,Target down!
+level_00_EN#0026,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,26,576,32,2.623,en,Heads up! Enemy moving out of the museum!
+level_00_EN#0027,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,27,608,32,1.941,en,They're coming in through the wall.
+level_00_EN#0028,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,28,640,32,2.629,en,"RPG, in the tower, 12 o'clock."
+level_00_EN#0029,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,29,672,16,1.388,en,Who's in Overwatch?
+level_00_EN#0030,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,30,688,16,1.658,en,Vehicle neutralized.
+level_00_EN#0031,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,31,704,32,2.405,en,"Charlie team moving now, we have the point."
+level_00_EN#0033,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,33,768,32,2.826,en,"Copy, Delta covering your advance."
+level_00_EN#0034,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,34,800,64,6.19,en,"Be advised, target's time is 2 still in the perimeter. Target 4 has just entered the building West and Bravo team."
+level_00_EN#0035,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,35,864,32,2.42,en,"Get a shooter in the high ground, take him out!"
+level_00_EN#0036,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,36,896,32,2.89,en,"Keep your head down, we got a shooter in the high ground."
+level_00_EN#0037,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,37,928,32,2.58,en,Look out! Shoot her up above! Shoot her above!
+level_00_EN#0038,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,38,960,32,2.446,en,Get a shooter above someone take him out
+level_00_EN#0039,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,39,992,48,3.816,en,We're going to get cut to pieces. Drop the guy in high ground.
+level_00_EN#0040,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,40,1040,16,1.672,en,Fall back to cover!
+level_00_EN#0041,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,41,1056,32,2.46,en,Cover the flank he's trying to get around us
+level_00_EN#0042,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,42,1088,32,3.323,en,"Making heavy fire, heavy fire, shots are coming from above."
+level_00_EN#0043,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,43,1120,32,2.208,en,Cover me I'm taking out the guy above
+level_00_EN#0044,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,44,1152,32,2.095,en,Zerobab! Zerobab!
+level_00_EN#0045,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,45,1184,32,2.696,en,"Keep your head down, we got an RPG in high ground."
+level_00_EN#0046,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,46,1216,32,2.379,en,Let an RPG above! Someone take him out!
+level_00_EN#0047,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,47,1248,32,3.273,en,Take it every RPG fire shots are coming from above
+level_00_EN#0048,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,48,1280,32,2.846,en,Cover me! I'm taking out the RPG of all...
+level_00_EN#0049,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,49,1312,16,1.566,en,Shoot her in the window!
+level_00_EN#0050,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,50,1328,32,2.33,en,Window above! Window above! Look out!
+level_00_EN#0051,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,51,1360,32,2.313,en,Shoot it on the upper floors!
+level_00_EN#0052,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,52,1392,32,3.001,en,Check fire check fire they're trying to flank us
+level_00_EN#0053,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,53,1424,32,2.37,en,"Get on the flank, they're cutting around!"
+level_00_EN#0054,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,54,1456,32,2.446,en,Open up on the flank they're coming around
+level_00_EN#0055,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,55,1488,32,3.0,en,Swing around! Swing around! They're trying to flank us!
+level_00_EN#0056,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,56,1520,32,2.858,en,Someone get on that flank! They're trying to get behind us!
+level_00_EN#0057,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,57,1552,32,2.399,en,They're moving on the flight! Get out of there!
+level_00_EN#0058,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,58,1584,16,1.6,en,"Let's go, goddammit!"
+level_00_EN#0059,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,59,1600,32,2.461,en,Boom! Boom! Boom! God damn it!
+level_00_EN#0060,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,60,1632,16,1.427,en,Move your ass!
+level_00_EN#0061,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,61,1648,32,2.391,en,"Boom, boom, boom, watch your flight!"
+level_00_EN#0063,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,63,1696,16,1.69,en,Cover me I'm moving in
+level_00_EN#0064,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,64,1712,32,2.231,en,Get over there and get me covering fire!
+level_00_EN#0065,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,65,1744,16,1.482,en,Move it out! Cover me!
+level_00_EN#0066,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,66,1760,32,2.202,en,Get those hands down! I'm moving the flank!
+level_00_EN#0067,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,67,1792,16,1.302,en,Drop him
+level_00_EN#0068,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,68,1808,32,2.28,en,Get robes down range!
+level_00_EN#0069,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,69,1840,16,0.901,en,FINE!
+level_00_EN#0070,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,70,1856,32,2.405,en,I can't wait here! I'm moving out!
+level_00_EN#0071,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,71,1888,80,7.634,en,"Hammerhead 6-2, this is 2-5, we're pinned down. I have multiple casualties. Request priority medevac on my location."
+level_00_EN#0072,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,72,1968,80,7.847,en,"This is 2-5, I say again. We're pinned down, we're pinned down. I have multiple casualties. Request priority medevac on my location."
+level_00_EN#0073,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,73,2048,128,12.903,en,"Emma Head 6-2, this is Alpha 2-9, we have eyes on 2-5. DZ receiving heavy fire, multiple hostiles inbound from 5-1's location. Request AC-130 gunship support."
+level_00_EN#0074,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,74,2176,64,5.33,en,Hammerhead 6-2. Hammerhead 6-2. We have unknown additional forces on the ground.
+level_00_EN#0075,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,75,2240,16,1.204,en,Copy that.
+level_00_EN#0076,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,76,2256,48,5.148,en,5-1. 5-1. This is 3-1. I'm on the other side of the block. I'm coming to you now. Over.
+level_00_EN#0077,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,77,2304,96,8.94,en,"Hammerhead 6-2, this is 3-1. We're encountering heavy resistance. Hostiles have set up RPG shells in surrounding buildings, attempting to secure location."
+level_00_EN#0078,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,78,2400,32,1.959,en,"Copy that, 6-2."
+level_00_EN#0079,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,79,2432,48,3.73,en,"3-1, watch your corner! You got incoming RPGs!"
+level_00_EN#0080,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,80,2480,48,5.151,en,This is Anvil 7-1. Package is roped in. We are standing by and holding pattern. Over.
+level_00_EN#0081,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,81,2528,32,2.375,en,Copy that. On station.
+level_00_EN#0082,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,82,2560,80,7.868,en,This is 7-1. Hostile forces are regrouping and headed for the museum. Request permission to engage targets.
+level_00_EN#0083,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,83,2640,64,5.372,en,This is Charlie 2-0. We have breached the museum. Multiple hostels inside. Please advise.
+level_00_EN#0084,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,84,2704,32,2.343,en,Copy that. 2-0. Holding position.
+level_00_EN#0085,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,85,2736,80,8.359,en,"Hammerhead 6-2, this is Echo 5-1. Package has escaped the net. I say again, Package has escaped the net. Do any Helos have a visual? Over."
+level_00_EN#0086,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,86,2816,32,2.059,en,"Copy that, 6-2."
+level_00_EN#0087,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,87,2848,96,8.924,en,"5-1, 5-1, this is Hammerhead 6-2, track advises streets barricaded to the north. We are circling around you to find an alternate route, over."
+level_00_EN#0088,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,88,2944,64,6.1,en,Negative 2-9. QRF is en route to reinforce. Rally on their position and do what you can.
+level_00_EN#0089,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,89,3008,80,8.484,en,"Copy that, everyone. All call sides be advised. Hostiles have defensive positions in surrounding structures. RPGs confirmed."
+level_00_EN#0090,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,90,3088,64,6.716,en,"Copy that, Anvil 7-1. Provide overwatch for Echo 5-1. They are moving to Rally Point Z. We're over."
+level_00_EN#0091,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,91,3152,32,2.708,en,"Stay again, you'll ask me to do that topic."
+level_00_EN#0092,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,92,3184,48,3.74,en,Copy that. Be back on route. ETA five minutes.
+level_00_EN#0093,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,93,3232,80,8.068,en,"Negative 7-1, remain on station and provide overwatch. We have Bravo and Charlie teams inbound. They will be able to neutralize sweat."
+level_00_EN#0094,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,94,3312,64,5.268,en,"2-0, hold your position. Alpha-2-9 and 2-5 are inbound to assist."
+level_00_EN#0095,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,95,3376,48,4.012,en,"Copy that, 2-9. We're raising the talk now. Wait out."
+level_00_EN#0096,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,96,3424,96,8.956,en,"2-9, do not engage those forces unless fired upon. Battalion S-2 advises tutors, our coalition strike teams. Do you copy?"
+level_00_EN#0097,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,97,3520,32,1.884,en,Stand by 5-1
+level_00_EN#0098,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,98,3552,80,7.644,en,"5-1, that is a negative. Do not pursue the package. Hold your position and secure the location. Do you copy?"
+level_00_EN#0099,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,99,3632,32,2.507,en,They're moving in on the flight! Get the fuck over there!
+level_00_EN#0100,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,100,3664,16,1.724,en,Swing it right onto the flag!
+level_00_EN#0101,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,101,3680,32,2.641,en,Cover that fuckin' flank! Don't let them get behind you!
+level_00_EN#0102,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,102,3712,32,2.005,en,Shoot them up! Shoot them up!
+level_00_EN#0103,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,103,3744,32,2.217,en,Got an RPG in the high ground! Nail it!
+level_00_EN#0104,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,104,3776,32,2.841,en,HEADS UP! RPG ABO BOMB! RPG ABO BOMB!
+level_00_EN#0105,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,105,3808,32,3.369,en,SHIT WE'RE GONNA GET CUT TO PIECES DROP THE GUY IN HIGH GROUND
+level_00_EN#0106,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,106,3840,32,2.731,en,Find cover! Shoot her above you! Shoot her above!
+level_00_EN#0107,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,107,3872,16,1.381,en,They're moving on the flag!
+level_00_EN#0108,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,108,3888,32,3.029,en,They're moving up on the flank! Get over there!
+level_00_EN#0109,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,109,3920,32,2.309,en,On the flag! On the flag!
+level_00_EN#0110,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,110,3952,16,1.724,en,Cover that fucking window!
+level_00_EN#0111,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,111,3968,32,2.362,en,"Shoot her in the window of black, someone drop her!"
+level_00_EN#0112,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,112,4000,32,2.771,en,WINDOW ABOVE! WINDOW ABOVE! GET ROUNDS ON THEM!
+level_00_EN#0113,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,113,4032,16,1.697,en,"Let's go, let's go, move!"
+level_00_EN#0114,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,114,4048,16,1.639,en,Get your fucking ass moving!
+level_00_EN#0115,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,115,4064,32,2.11,en,MOVE! MOVE! MOVE! GOD DAMN IT!
+level_00_EN#0116,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,116,4096,16,0.943,en,Stay tight!
+level_00_EN#0117,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,117,4112,16,1.387,en,"Roman, cover me!"
+level_00_EN#0118,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,118,4128,16,1.468,en,Give me cover and fire!
+level_00_EN#0119,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,119,4144,32,1.985,en,Get me some fucking covering fire!
+level_00_EN#0120,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,120,4176,32,1.828,en,"Cover me, I'm gonna try and flank him."
+level_00_EN#0121,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,121,4208,16,1.471,en,Get rounds on target!
+level_00_EN#0122,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,122,4224,16,1.43,en,"FIRE, GOD DAMMIT!"
+level_00_EN#0123,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,123,4240,32,2.423,en,Return fire! Return fire! God damn it!
+level_00_EN#0124,-,campaign_dialogue,Catalog,levels/level_00/spch_EN.ssh,levels/level_00/spch_EN.bks,124,4272,32,2.399,en,"You will hold your position, Bravo!"
+level_01_EN#0000,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,0,0,16,1.619,en,Rana! Move!
+level_01_EN#0001,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,1,16,32,3.114,en,"2-1, this is 3, message over."
+level_01_EN#0002,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,2,48,48,5.048,en,"2-1, this is 3, nothing heard. Proceeding to top out, over."
+level_01_EN#0003,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,3,96,64,5.79,en,"Top Hat has been negotiated. Continuing to block house. Figures 2-0 until RV, over."
+level_01_EN#0004,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,4,160,32,3.445,en,Blockhouse now. Checking the yard. Over.
+level_01_EN#0005,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,5,192,32,3.169,en,"Two, one, this is three. Do you copy?"
+level_01_EN#0006,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,6,224,64,6.872,en,Lockhouse made safe. Minimal resistance. Proceeding to RV. Out.
+level_01_EN#0007,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,7,288,96,9.093,en,"2-1, this is 3RV now. Lokstad, over. If you read me, stage 2 now in play. I am moving forward, out."
+level_01_EN#0008,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,8,384,32,2.394,en,REQUEST COVERING FIRE!
+level_01_EN#0009,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,9,416,64,5.262,en,"3, this is 2-1, I have eyes on. Stand 2, enemy advancing on your location."
+level_01_EN#0010,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,10,480,80,7.386,en,Contact. Targets times 7. Correction times 10. Sweep and clear the area. Move now. Move now.
+level_01_EN#0011,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,11,560,48,3.613,en,Negative 3 cannot compromise our position. 2-1 out.
+level_01_EN#0012,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,12,608,96,8.799,en,"2-1-2-1, do you copy? Over. 2-1, do you read me? Over. If you copy, I am proceeding to RV. Out."
+level_01_EN#0013,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,13,704,80,7.084,en,"This is Bravo 3 Radio Tech, over. Nothing heard, out."
+level_01_EN#0014,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,14,784,112,11.322,en,"This is three. I have heavy forces defending Blockhouse. Over. I say again, I have heavy forces defending Blockhouse. Proceeding through objective will advise shortly. Out."
+level_01_EN#0015,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,15,896,48,3.891,en,"Bravo 2-1, this is 3, do you copy? Over."
+level_01_EN#0016,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,16,944,112,11.577,en,Any call sign on this net. This is Bravo 3. Do you copy? Farmhouse now. I say again. Farmhouse now. RV is empty. What is your situation?
+level_01_EN#0017,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,17,1056,128,12.285,en,Continuing to Blockhouse. Figures 2-0 until RV over. I say again. Figures 2-0 until RV Blockhouse has fallen over. Nothing hurt. Out.
+level_01_EN#0018,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,18,1184,48,5.022,en,"This is Bravo 3 Radio, check over."
+level_01_EN#0019,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,19,1232,64,5.912,en,Bravo three targets neutralize
+level_01_EN#0020,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,20,1296,32,2.803,en,This is three. I'm taking out hard targets in the area.
+level_01_EN#0021,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,21,1328,16,1.374,en,I'm pinned down.
+level_01_EN#0022,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,22,1344,32,2.048,en,Contact! Contact! Message over!
+level_01_EN#0023,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,23,1376,32,2.551,en,"RV in figures three, four, bring it in."
+level_01_EN#0025,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,25,1440,32,2.797,en,"Hostiles neutralized, advancing to the next area."
+level_01_EN#0026,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,26,1472,32,1.956,en,We got more hostels coming in.
+level_01_EN#0027,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,27,1504,64,6.08,en,This is 2-1. You are to sweep and clear the area for intel. We'll contact you in figures 2-0. Out.
+level_01_EN#0028,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,28,1568,80,8.362,en,This is 2-1. We have eyes on hostiles and surrounding buildings. Clear the area. We will support from our location. Over.
+level_01_EN#0029,-,campaign_dialogue,Catalog,levels/level_01/spch_EN.ssh,levels/level_01/spch_EN.bks,29,1648,64,6.55,en,"Bravo 3, this is 2-1. Hold your position. We are inbound to rally on your location. Stand by."
+level_03_EN#0000,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,0,0,32,2.066,en,"This is three, moving out."
+level_03_EN#0001,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,1,32,48,3.633,en,Copy that 2-1. I have visual. Smoke 12 o'clock.
+level_03_EN#0002,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,2,80,16,1.655,en,Copy that four
+level_03_EN#0003,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,3,96,32,2.765,en,"3, this is 2-1. RV at the main plant."
+level_03_EN#0004,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,4,128,32,2.614,en,"This is 2-1, can you see smoke or any chimneys?"
+level_03_EN#0005,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,5,160,96,8.977,en,You're out of position. Do you copy? You are out of position. You're approaching a minefield. You do not have time to bypass. Advance and watch for tripwires.
+level_03_EN#0006,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,6,256,32,3.265,en,This is 2-1. There are hostiles everywhere. I'll cover your advance.
+level_03_EN#0007,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,7,288,16,1.25,en,Enemy on your point.
+level_03_EN#0008,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,8,304,16,1.41,en,Contact on your right.
+level_03_EN#0009,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,9,320,16,1.642,en,They're trying to flank you on the left.
+level_03_EN#0010,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,10,336,16,1.401,en,Above you! Above you!
+level_03_EN#0011,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,11,352,16,0.809,en,BELOW YOU!
+level_03_EN#0012,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,12,368,32,2.557,en,Enemy in cover. I have the shot. Firing.
+level_03_EN#0013,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,13,400,80,7.641,en,"This is 2-1. I do not have a clear line of sight. I say again, I do not have a clear line of sight. I cannot cover your advance. Over."
+level_03_EN#0014,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,14,480,16,1.339,en,I'm losing visual.
+level_03_EN#0015,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,15,496,32,1.961,en,"Visual reacquired, standing by."
+level_03_EN#0016,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,16,528,64,5.575,en,"Ford, this is 2-1. Wire the target. We're behind schedule. Blow the equipment and get out of there ASAP. Out."
+level_03_EN#0017,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,17,592,80,7.245,en,"Copy that. Three, this is four. Come in the main machine room, destroy the smaller equipment, then blow the main room from the inside over."
+level_03_EN#0018,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,18,672,48,3.657,en,Three left. Get close and raise the control panels.
+level_03_EN#0019,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,19,720,32,2.144,en,I'm lightening it up. Stand by.
+level_03_EN#0020,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,20,752,32,3.102,en,"All call signs! Brace, brace, brace!"
+level_03_EN#0021,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,21,784,16,0.702,en,Copy.
+level_03_EN#0022,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,22,800,16,1.262,en,Copy that.
+level_03_EN#0023,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,23,816,48,5.122,en,This is 3. I'm taking out hard targets in the area. We'll advise further if necessary. Out.
+level_03_EN#0024,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,24,864,48,5.087,en,Bravo 3. Target's neutralized. Exiting building. Hold fire.
+level_03_EN#0025,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,25,912,48,3.514,en,"Bravo 3, detonate the mines with your weapon before advancing."
+level_03_EN#0026,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,26,960,64,5.755,en,This is 2-1. Hostiles advancing on your location. I will provide sniper overwatch on your advance.
+level_03_EN#0027,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,27,1024,80,8.199,en,"Bravo 3, infiltrate the structure and destroy all targets of opportunity. Bravo 4 will sweep and clear the perimeter, copy?"
+level_03_EN#0028,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,28,1104,32,2.304,en,"Bravo 4, sit rep, over."
+level_03_EN#0029,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,29,1136,32,3.366,en,"Copy that. Three, what's your situation?"
+level_03_EN#0030,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,30,1168,16,0.715,en,Bye-bye.
+level_03_EN#0031,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,31,1184,32,2.675,en,"Keller, take out the shooter behind that cover."
+level_03_EN#0032,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,32,1216,32,3.311,en,Negative three cannot compromise our position.
+level_03_EN#0033,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,33,1248,16,1.103,en,You got it.
+level_03_EN#0034,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,34,1264,32,3.448,en,"Standby, I got multiple hostiles moving along the perimeter."
+level_03_EN#0035,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,35,1296,48,4.251,en,"Encountered heavy resistance, I'm gonna hook around the outside of the fuel area, over!"
+level_03_EN#0036,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,36,1344,32,3.055,en,Target one is wired and good to go. Proceeding target two.
+level_03_EN#0037,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,37,1376,32,3.047,en,Targets one and two ready to be lit up. Standby.
+level_03_EN#0038,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,38,1408,32,2.606,en,Overwatch advise! Hustles on the move!
+level_03_EN#0039,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,39,1440,32,2.484,en,Security up on! We're getting close!
+level_03_EN#0040,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,40,1472,16,0.755,en,Move him!
+level_03_EN#0041,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,41,1488,32,1.805,en,Multiple hostiles inbound
+level_03_EN#0042,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,42,1520,16,0.976,en,Taking fire!
+level_03_EN#0043,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,43,1536,32,1.912,en,Incoming! I had incoming!
+level_03_EN#0044,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,44,1568,16,1.439,en,Moving! Cover me!
+level_03_EN#0045,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,45,1584,16,1.724,en,RECEIPPING HAPPY FIRE!
+level_03_EN#0046,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,46,1600,32,1.973,en,Give me covering fire!
+level_03_EN#0047,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,47,1632,32,2.377,en,Get out of here. Give me some covering fire.
+level_03_EN#0048,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,48,1664,16,1.194,en,Drop him!
+level_03_EN#0049,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,49,1680,32,1.981,en,Get rounds on that target!
+level_03_EN#0050,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,50,1712,32,2.109,en,And come on get down
+level_03_EN#0051,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,51,1744,16,1.724,en,They got an RPG!
+level_03_EN#0052,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,52,1760,48,4.083,en,Taking heavy RPG fire. Shots are coming from above.
+level_03_EN#0053,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,53,1808,16,1.289,en,I'm pinned down.
+level_03_EN#0054,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,54,1824,48,3.932,en,"Area secure, advancing to next level, over."
+level_03_EN#0055,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,55,1872,32,2.208,en,Get rounds on that window
+level_03_EN#0056,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,56,1904,32,2.388,en,They're everywhere I need support
+level_03_EN#0057,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,57,1936,32,2.994,en,Zone secure. Proceeding to next area.
+level_03_EN#0058,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,58,1968,32,2.35,en,Incoming! I got incoming!
+level_03_EN#0059,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,59,2000,16,1.34,en,I go!
+level_03_EN#0060,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,60,2016,16,1.268,en,Enemy down!
+level_03_EN#0061,-,campaign_dialogue,Catalog,levels/level_03/spch_EN.ssh,levels/level_03/spch_EN.bks,61,2032,16,1.604,en,Running low on ammo!
+level_04_EN#0000,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,0,0,32,3.169,en,HOLD YOUR POSITION! DO NOT FUCKING DROP BACK!
+level_04_EN#0001,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,1,32,16,1.676,en,Moving in.
+level_04_EN#0002,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,2,48,32,3.145,en,"Stay alert, pick your targets. Short controlled bursts."
+level_04_EN#0003,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,3,80,16,0.764,en,Above you.
+level_04_EN#0004,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,4,96,16,1.593,en,"Target cleared, I got the lead."
+level_04_EN#0005,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,5,112,16,1.315,en,Cover and fire!
+level_04_EN#0006,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,6,128,32,2.774,en,Zero in on the entrance. I'll take point.
+level_04_EN#0007,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,7,160,32,1.996,en,"Negative, hold your position."
+level_04_EN#0008,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,8,192,48,5.157,en,ORDERS ARE TO HOLD! DO NOT ENTER THAT BUILDING! KILLER!
+level_04_EN#0009,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,9,240,16,1.23,en,Copy.
+level_04_EN#0010,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,10,256,48,4.402,en,First level clear proceeding the next area standby for update over
+level_04_EN#0011,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,11,304,32,2.655,en,"McCarver, are you still there?"
+level_04_EN#0012,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,12,336,48,5.093,en,I pushed through most of the structure. We'll advise once the package is secured. Out.
+level_04_EN#0013,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,13,384,48,3.601,en,"Carver, I'm coming out. Hold fire."
+level_04_EN#0014,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,14,432,32,2.78,en,Watch your space and I don't wanna get caught up in all this shit.
+level_04_EN#0015,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,15,464,32,2.504,en,Copy. Let's not get caught sleeping.
+level_04_EN#0016,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,16,496,48,5.172,en,"Four, take the right flank, I'll take the left. Three, assault the gun emplacement, copy."
+level_04_EN#0017,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,17,544,112,11.391,en,"Good work, Three. Secure the location. Do not let anything go in or come out. Three, do you copy? I said hold your position. Goddammit, Three, hold your position!"
+level_04_EN#0018,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,18,656,32,2.414,en,"Bravo 3 sit-rep, over."
+level_04_EN#0019,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,19,688,48,4.042,en,"Keller, whatever you're doing, do it fast. Postal reinforcements headed this way."
+level_04_EN#0020,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,20,736,96,8.71,en,"This is McCarver. We've got multiple hostiles trying to get into the building. We'll try to hold them off. We'll try, but we're receiving heavy fire. Do you copy?"
+level_04_EN#0021,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,21,832,48,4.495,en,Copy that. We got a defensive perimeter established around the building. Over.
+level_04_EN#0022,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,22,880,32,2.484,en,And maybe they're getting ready for a garage sale.
+level_04_EN#0023,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,23,912,112,10.416,en,"2-1, stand by, I think I got something. Bad news, I got tracks all over the place, fresh. Maybe platoon size plus and strength."
+level_04_EN#0024,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,24,1024,16,1.447,en,"Right flag, copy."
+level_04_EN#0025,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,25,1040,32,2.521,en,"This fuckin' better be worth it, Keller."
+level_04_EN#0026,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,26,1072,32,2.298,en,"Keller, hurry the fuck up!"
+level_04_EN#0027,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,27,1104,32,2.115,en,"Add badge to contact, over."
+level_04_EN#0028,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,28,1136,32,2.832,en,"Stay down, I think we got movement up ahead."
+level_04_EN#0029,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,29,1168,32,1.874,en,Someone get on that flight
+level_04_EN#0030,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,30,1200,32,3.346,en,God damn it! Somebody take out that RPG!
+level_04_EN#0031,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,31,1232,32,2.644,en,Can't walk above! Can't walk above!
+level_04_EN#0032,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,32,1264,32,2.298,en,He's above you above you
+level_04_EN#0033,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,33,1296,32,1.883,en,Shiroba! Shiroba!
+level_04_EN#0034,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,34,1328,32,2.911,en,In the window in the window RPG
+level_04_EN#0035,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,35,1360,32,2.623,en,"RPG, cover that fucking window!"
+level_04_EN#0036,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,36,1392,32,1.872,en,Get out of there move
+level_04_EN#0037,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,37,1424,32,1.785,en,Drop out! Drop out!
+level_04_EN#0038,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,38,1456,16,1.616,en,Where are they coming from?
+level_04_EN#0039,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,39,1472,16,1.724,en,Fall back to cover!
+level_04_EN#0040,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,40,1488,32,2.522,en,I'm on your left on your lap
+level_04_EN#0041,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,41,1520,32,2.072,en,Where the fuck did that come from?
+level_04_EN#0042,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,42,1552,16,1.718,en,Shoot it down
+level_04_EN#0043,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,43,1568,32,2.809,en,Get those heads down! I'm moving the flank!
+level_04_EN#0044,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,44,1600,32,2.922,en,Return fire! Return fire! God damn it!
+level_04_EN#0045,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,45,1632,32,2.977,en,"Keller, take out the shooter behind that cover!"
+level_04_EN#0046,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,46,1664,32,1.898,en,"Fuck, I'm hit!"
+level_04_EN#0047,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,47,1696,32,2.153,en,Behind the truck! Someone take him!
+level_04_EN#0048,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,48,1728,32,1.95,en,Get out of here! Move!
+level_04_EN#0049,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,49,1760,16,1.237,en,Take out the car!
+level_04_EN#0050,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,50,1776,16,0.853,en,Hey!
+level_04_EN#0051,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,51,1792,16,0.899,en,Come on!
+level_04_EN#0052,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,52,1808,16,0.805,en,I'm on it.
+level_04_EN#0053,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,53,1824,16,1.724,en,"Heads up, he's on the catwalk."
+level_04_EN#0054,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,54,1840,16,0.742,en,I got it.
+level_04_EN#0055,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,55,1856,16,0.81,en,Roger that.
+level_04_EN#0056,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,56,1872,32,2.678,en,"Negative, I'm pinned down, I need to cover now!"
+level_04_EN#0057,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,57,1904,32,2.179,en,Make it him! I do not have the shot!
+level_04_EN#0058,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,58,1936,32,2.013,en,Copy that! I have him on view!
+level_04_EN#0059,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,59,1968,16,1.568,en,Stoppage! Stoppage!
+level_04_EN#0060,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,60,1984,16,1.054,en,I'm drowned!
+level_04_EN#0061,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,61,2000,16,1.141,en,Changing mags!
+level_04_EN#0062,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,62,2016,16,1.546,en,Conserve your ammo!
+level_04_EN#0063,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,63,2032,32,1.933,en,Cover me! I'm gonna try and flank him!
+level_04_EN#0064,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,64,2064,32,2.684,en,We got a machine gun! Take it out!
+level_04_EN#0065,-,campaign_dialogue,Catalog,levels/level_04/spch_EN.ssh,levels/level_04/spch_EN.bks,65,2096,16,1.429,en,Take out that gun!
+level_05_EN#0000,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,0,0,32,2.665,en,Incoming! I got incoming!
+level_05_EN#0001,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,1,32,48,4.613,en,Keep your head on a swivel. Intel reports snipers in the area.
+level_05_EN#0002,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,2,80,32,2.828,en,Hold. Enemy patrol ahead.
+level_05_EN#0003,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,3,112,80,7.485,en,Shit! Take cover! Take cover! Shoot her on your point! Use the ground! Stay off the road!
+level_05_EN#0004,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,4,192,32,3.422,en,Shooter knows what he's doing. Keep your head down.
+level_05_EN#0005,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,5,224,64,5.547,en,"Contact! Target 100, building to your front, 2 o'clock."
+level_05_EN#0006,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,6,288,32,2.813,en,Clear the structure. Over.
+level_05_EN#0007,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,7,320,64,5.979,en,"3, this is 2-1. Secure that weapon. We may need the standoff distance."
+level_05_EN#0008,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,8,384,48,4.167,en,"Heads up, on R6. Wait for my command."
+level_05_EN#0009,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,9,432,32,1.944,en,Take him out.
+level_05_EN#0010,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,10,464,32,3.203,en,Target down on my position.
+level_05_EN#0011,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,11,496,64,6.756,en,Shooter in the tower to my front. Do not cross open ground. I'll cover. Move now!
+level_05_EN#0012,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,12,560,32,2.471,en,Multiple shooters!
+level_05_EN#0013,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,13,592,64,6.066,en,"This is 2-1, enemy advancing, 12 o'clock. Pick your targets, fire at will."
+level_05_EN#0014,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,14,656,32,3.06,en,Watch your right heart. Multiple targets.
+level_05_EN#0015,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,15,688,80,6.94,en,Cease fire! Cease fire! Ground clear! Move out! Intel reports a tunnel system in the basement.
+level_05_EN#0016,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,16,768,48,5.038,en,This area is a hotbed for sniper activity. Don't let them get a beat on you.
+level_05_EN#0017,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,17,816,64,5.857,en,Use the trenches for cover. Don't give away your position unless you have a clear shot.
+level_05_EN#0018,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,18,880,16,1.454,en,Incoming!
+level_05_EN#0019,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,19,896,48,4.301,en,Contact! Enemy advancing! On your own time! Fire!
+level_05_EN#0021,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,21,976,48,4.481,en,We're getting close. We can access the steelworks through the network ahead.
+level_05_EN#0022,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,22,1024,32,2.587,en,"Sniper, on your left!"
+level_05_EN#0023,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,23,1056,32,2.128,en,You got another one on your right!
+level_05_EN#0024,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,24,1088,48,4.052,en,That's the building we want. Sweep and clear the area.
+level_05_EN#0025,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,25,1136,80,8.026,en,"Area's secure, let's move out. The tunnel network will get you to the steelworks. I'll RV with you there, don't get lost."
+level_05_EN#0026,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,26,1216,48,3.74,en,"Yeah, well either way I don't like it."
+level_05_EN#0027,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,27,1264,32,2.928,en,"Real people person, I take it."
+level_05_EN#0028,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,28,1296,48,3.798,en,I'll keep that in mind. How long you been on the tomb?
+level_05_EN#0029,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,29,1344,16,1.658,en,Time to die.
+level_05_EN#0030,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,30,1360,48,5.029,en,"LT, you see this? Multiple targets bearing down on our location."
+level_05_EN#0031,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,31,1408,16,1.115,en,Copy that
+level_05_EN#0032,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,32,1424,32,2.286,en,We got more hostiles coming in.
+level_05_EN#0033,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,33,1456,48,4.171,en,Check it out. I thought places like this only existed in movies.
+level_05_EN#0034,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,34,1504,64,6.575,en,You kidding me? This is my kind of place. All the type of people I like. Quiet and out of the way.
+level_05_EN#0035,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,35,1568,32,2.837,en,You don't get to where I am by beating a bleeding heart.
+level_05_EN#0036,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,36,1600,32,2.771,en,Long enough to forget what's right and wrong?
+level_05_EN#0037,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,37,1632,16,1.265,en,Take him out.
+level_05_EN#0038,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,38,1648,32,2.339,en,"Take out the headstones, Keller."
+level_05_EN#0039,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,39,1680,32,2.269,en,"Cover your arc, I got the other side."
+level_05_EN#0040,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,40,1712,16,1.349,en,Moving now
+level_05_EN#0041,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,41,1728,32,1.955,en,Steady up! We just got made!
+level_05_EN#0042,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,42,1760,16,1.564,en,Move to better cover!
+level_05_EN#0043,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,43,1776,32,1.869,en,Give me covering fire!
+level_05_EN#0044,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,44,1808,32,1.817,en,"Enemies seen, get ready!"
+level_05_EN#0045,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,45,1840,16,1.654,en,"Cover me, I'm moving in."
+level_05_EN#0046,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,46,1856,16,1.097,en,Fire!
+level_05_EN#0047,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,47,1872,16,1.258,en,Drop him!
+level_05_EN#0048,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,48,1888,16,1.285,en,Waste them
+level_05_EN#0049,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,49,1904,32,2.6,en,Return fire! Return fire! God damn it!
+level_05_EN#0050,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,50,1936,48,3.636,en,Standby to reorg. Let's push through an RV on the other side
+level_05_EN#0051,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,51,1984,32,2.487,en,Swing around they're trying to flank us
+level_05_EN#0052,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,52,2016,16,1.602,en,"Let's go, goddammit!"
+level_05_EN#0053,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,53,2032,32,2.266,en,Multiple hostiles inbound
+level_05_EN#0054,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,54,2064,32,2.304,en,"Get those heads down, I'm moving the flank."
+level_05_EN#0055,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,55,2096,32,2.411,en,They're moving on the flight! Get out of there!
+level_05_EN#0056,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,56,2128,16,1.668,en,Receiving heavy five.
+level_05_EN#0057,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,57,2144,32,2.013,en,Shit! They're all around us!
+level_05_EN#0058,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,58,2176,16,1.409,en,"Okay, go, let's surround it!"
+level_05_EN#0059,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,59,2192,48,3.694,en,Multiple shooters on the point. I'm pinned down. I'm pinned down.
+level_05_EN#0060,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,60,2240,16,1.724,en,Drop back! Drop back!
+level_05_EN#0061,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,61,2256,32,2.368,en,Front and center! Give me supporting fire!
+level_05_EN#0062,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,62,2288,32,2.011,en,They're everywhere! I need support!
+level_05_EN#0063,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,63,2320,16,1.262,en,Take out that gun!
+level_05_EN#0064,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,64,2336,32,2.835,en,We got a machine gun! Take it out! Take it out!
+level_05_EN#0065,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,65,2368,32,1.807,en,Take out that machine gun!
+level_05_EN#0066,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,66,2400,32,3.146,en,"Killer, take out the shooter behind that cover!"
+level_05_EN#0067,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,67,2432,16,1.499,en,Target down.
+level_05_EN#0068,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,68,2448,48,4.345,en,"Will a heavy fire come in from that high ground? Terror, can you get to him?"
+level_05_EN#0069,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,69,2496,16,1.494,en,I got him!
+level_05_EN#0070,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,70,2512,16,1.329,en,Enemy down.
+level_05_EN#0071,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,71,2528,32,2.062,en,Get a frag on that position!
+level_05_EN#0072,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,72,2560,16,1.53,en,Target down!
+level_05_EN#0073,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,73,2576,32,2.295,en,Get out there! Move!
+level_05_EN#0074,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,74,2608,32,2.292,en,Cover my flank! I'm moving up!
+level_05_EN#0075,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,75,2640,32,1.968,en,Running low on ammo.
+level_05_EN#0076,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,76,2672,48,3.782,en,Shit! They got reinforcements! Frag them!
+level_05_EN#0077,-,campaign_dialogue,Catalog,levels/level_05/spch_EN.ssh,levels/level_05/spch_EN.bks,77,2720,32,2.24,en,I've got a stoppage! Cover me!
+level_06_EN#0000,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,0,0,32,2.533,en,"Check fire on the flank, I'll push it through!"
+level_06_EN#0001,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,1,32,32,2.144,en,"Copy that, Alpha."
+level_06_EN#0002,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,2,64,32,2.37,en,Alpha R go. Moving now.
+level_06_EN#0003,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,3,96,16,1.372,en,On the right! On the right!
+level_06_EN#0004,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,4,112,16,1.716,en,They got us dialed in!
+level_06_EN#0005,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,5,128,16,1.724,en,I'm hit! I'm hit!
+level_06_EN#0006,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,6,144,16,1.724,en,Abort! Abort!
+level_06_EN#0007,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,7,160,32,3.215,en,Robo team! Come in! This is-
+level_06_EN#0008,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,8,192,16,1.558,en,Did you see that?
+level_06_EN#0010,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,10,240,32,1.9,en,There's too many of them!
+level_06_EN#0011,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,11,272,16,1.297,en,WE NEED SUPPORT!
+level_06_EN#0013,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,13,320,32,1.97,en,Alpha moving now.
+level_06_EN#0014,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,14,352,16,1.697,en,Alpha moving into position.
+level_06_EN#0015,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,15,368,16,1.724,en,They got us an infolade!
+level_06_EN#0016,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,16,384,32,3.448,en,Watch a crossfire! Look out! Look out!
+level_06_EN#0017,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,17,416,32,2.129,en,Wild Rats! Wild Rats!
+level_06_EN#0018,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,18,448,48,3.633,en,Bravo team! Under heavy fire! We're taking casualties!
+level_06_EN#0019,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,19,496,32,1.803,en,"Go, go, go!"
+level_06_EN#0020,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,20,528,32,1.883,en,"All call signs, suppressors on."
+level_06_EN#0021,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,21,560,32,2.109,en,Multiple targets on your 12 and 6.
+level_06_EN#0022,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,22,592,32,1.816,en,Watch your arcs! Watch your arcs!
+level_06_EN#0023,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,23,624,16,0.719,en,Look out!
+level_06_EN#0024,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,24,640,16,1.279,en,Copy that.
+level_06_EN#0025,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,25,656,48,4.652,en,This is Bravo Sweeping Containers. No contact.
+level_06_EN#0026,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,26,704,16,1.299,en,Target down.
+level_06_EN#0027,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,27,720,16,1.249,en,CONTRACT!
+level_06_EN#0028,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,28,736,16,1.203,en,Ambush!
+level_06_EN#0029,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,29,752,16,1.706,en,SHUT! SHUT! SHUT!
+level_06_EN#0030,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,30,768,16,1.376,en,INCOMING!
+level_06_EN#0031,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,31,784,48,4.385,en,Taking heavy RPG fire shots coming from above
+level_06_EN#0032,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,32,832,48,4.402,en,Someone get me covering fire! I got an RPG above me!
+level_06_EN#0033,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,33,880,32,3.265,en,Target is down! Target down!
+level_06_EN#0034,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,34,912,16,1.401,en,Enemy down
+level_06_EN#0035,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,35,928,32,2.049,en,Hang tight and cover the points.
+level_06_EN#0036,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,36,960,32,2.905,en,"Oh, God damn it. Get over there."
+level_06_EN#0037,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,37,992,32,2.565,en,So you're out and give me some cover over here
+level_06_EN#0038,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,38,1024,32,2.22,en,"Multiple hostiles, inbound."
+level_06_EN#0039,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,39,1056,48,4.118,en,Multiple shooters on the point. I'm pinned down. I'm pinned down.
+level_06_EN#0040,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,40,1104,32,1.964,en,On the flank! On the flank!
+level_06_EN#0041,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,41,1136,16,1.57,en,Moving on the flight
+level_06_EN#0042,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,42,1152,32,2.8,en,Hostiles trying to flank are just fine!
+level_06_EN#0043,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,43,1184,32,2.96,en,Someone get on that flank! They're trying to get behind us!
+level_06_EN#0044,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,44,1216,32,2.478,en,Get over here and get recovery fire!
+level_06_EN#0045,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,45,1248,16,1.724,en,Move it out cover me
+level_06_EN#0046,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,46,1264,32,2.249,en,"Let's go, Bravo team, move it!"
+level_06_EN#0047,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,47,1296,16,1.172,en,"Go, go, go!"
+level_06_EN#0048,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,48,1312,32,2.734,en,"Push through that area! Come on, Bravo 3!"
+level_06_EN#0049,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,49,1344,32,2.559,en,Fuck! Gun jam! Gun jam!
+level_06_EN#0050,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,50,1376,16,1.594,en,AYE AYE COVER ME!
+level_06_EN#0051,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,51,1392,16,1.552,en,RUNNING LOW AMMO!
+level_06_EN#0053,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,53,1440,32,3.137,en,"God, I'm in! I'm in! I didn't cover him for you!"
+level_06_EN#0054,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,54,1472,32,1.784,en,"Oh, fuck, I'm hit!"
+level_06_EN#0055,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,55,1504,32,2.649,en,"Keller, take out the shooter behind that cover!"
+level_06_EN#0056,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,56,1536,16,0.754,en,MOVE IN!
+level_06_EN#0057,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,57,1552,16,0.882,en,GOVERY!
+level_06_EN#0058,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,58,1568,32,3.27,en,They're moving on the flank. Get the fuck over there.
+level_06_EN#0059,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,59,1600,16,1.551,en,Give me cover and fire!
+level_06_EN#0060,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,60,1616,32,1.821,en,Bring him out! Bring him out!
+level_06_EN#0061,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,61,1648,16,1.401,en,Above you! Above you!
+level_06_EN#0062,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,62,1664,16,1.724,en,Get out of there! Move!
+level_06_EN#0063,-,campaign_dialogue,Catalog,levels/level_06/spch_EN.ssh,levels/level_06/spch_EN.bks,63,1680,32,2.321,en,"Killer, I'm gonna flush them out. Standby."
+level_07_EN#0000,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,0,0,16,1.613,en,THEY'RE USING SHIELDS!
+level_07_EN#0001,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,1,16,32,1.819,en,I'm going in.
+level_07_EN#0002,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,2,48,32,2.008,en,"Keep tight, watch those corners."
+level_07_EN#0003,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,3,80,16,0.632,en,Careful.
+level_07_EN#0004,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,4,96,16,1.572,en,Target's 12 o'clock.
+level_07_EN#0005,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,5,112,16,1.054,en,RPG!
+level_07_EN#0006,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,6,128,32,1.825,en,Concentrate on the doorway!
+level_07_EN#0007,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,7,160,32,2.304,en,Close it up. Watch those gaps.
+level_07_EN#0009,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,9,224,16,1.265,en,INCOMING!
+level_07_EN#0010,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,10,240,32,1.891,en,There's the entrance up ahead!
+level_07_EN#0012,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,12,288,64,6.144,en,We got to get to the other side of that bridge. Prepare to advance. Drop everything that moves.
+level_07_EN#0013,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,13,352,48,5.172,en,"By asking politely, how the fuck do you think? Now get ready to move."
+level_07_EN#0014,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,14,400,48,3.589,en,"They'll have snipers on the superstructure, so make sure you cover our heads."
+level_07_EN#0015,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,15,448,32,2.55,en,"Bridge cleared, reorg on the other side."
+level_07_EN#0016,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,16,480,16,1.311,en,You guys see that?
+level_07_EN#0018,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,18,528,48,3.891,en,Hold your fire. Hold your fire. Area secure.
+level_07_EN#0019,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,19,576,80,7.514,en,"I don't want to rain on your fucking parade, but how the fuck are you planning to get by all those swinging dicks?"
+level_07_EN#0020,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,20,656,32,2.225,en,See you assholes on the other side.
+level_07_EN#0021,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,21,688,32,2.246,en,It's a fucking minefield!
+level_07_EN#0022,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,22,720,16,1.656,en,Hostiles inbound!
+level_07_EN#0027,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,27,848,32,2.676,en,Get out of there. They're going to cut you to pieces.
+level_07_EN#0028,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,28,880,32,2.766,en,"Cover me, I'm taking out the RPG above"
+level_07_EN#0030,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,30,944,32,2.162,en,Where the fuck did that come from?
+level_07_EN#0031,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,31,976,32,2.986,en,RETURN FIRE! RETURN FIRE! GOD DAMN IT!
+level_07_EN#0032,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,32,1008,48,3.95,en,"Alright, let's bring it in and tighten it up, cover your side."
+level_07_EN#0033,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,33,1056,32,2.661,en,Let's go! Let's go!
+level_07_EN#0036,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,36,1152,48,3.555,en,Spread out into a loose file. We don't want to get caught off guard.
+level_07_EN#0037,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,37,1200,32,2.44,en,Get on the flank! They're cutting around!
+level_07_EN#0038,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,38,1232,32,2.693,en,They got an RPG!
+level_07_EN#0039,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,39,1264,32,2.641,en,Now get your fucking ass moving!
+level_07_EN#0040,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,40,1296,32,2.371,en,Get rounds on that target!
+level_07_EN#0043,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,43,1392,32,3.05,en,I got an RPG in the window. Someone drop him.
+level_07_EN#0045,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,45,1456,32,2.139,en,Get out of there!
+level_07_EN#0046,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,46,1488,32,1.872,en,Stay tight!
+level_07_EN#0047,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,47,1520,32,2.115,en,Steady up! We just got made!
+level_07_EN#0048,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,48,1552,32,3.062,en,"Target, take cover."
+level_07_EN#0049,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,49,1584,32,2.771,en,Get cover. We got movement up ahead.
+level_07_EN#0050,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,50,1616,32,2.394,en,Incoming! I got incoming!
+level_07_EN#0051,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,51,1648,32,2.008,en,Hold your position.
+level_07_EN#0052,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,52,1680,32,1.938,en,They got tech shields!
+level_07_EN#0053,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,53,1712,32,2.821,en,Go for the head they got party armor
+level_07_EN#0054,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,54,1744,16,1.198,en,SHOOT HER DOWN!
+level_07_EN#0056,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,56,1776,32,1.883,en,"All call signs, suppressors on."
+level_07_EN#0057,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,57,1808,32,2.507,en,They're wearing masks! Go for the head!
+level_07_EN#0058,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,58,1840,16,1.378,en,"Copy, moving out!"
+level_07_EN#0060,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,60,1888,32,2.292,en,"Draw their fire, I'll take them when they move."
+level_07_EN#0061,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,61,1920,16,1.462,en,Take out that gun!
+level_07_EN#0063,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,63,1952,32,2.884,en,We got a machine gun! Take her out!
+level_07_EN#0064,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,64,1984,48,3.56,en,"Hey, all call signs hold! Kettler, clear the point!"
+level_07_EN#0065,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,65,2032,32,3.448,en,Our city's got you dialed in! Get out of there!
+level_07_EN#0066,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,66,2064,32,3.206,en,HOLD YOUR POSITION! DO NOT FUCKING DROP BACK!
+level_07_EN#0067,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,67,2096,32,2.13,en,"Hey, get a flag on that position!"
+level_07_EN#0068,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,68,2128,32,2.791,en,Take cover! Where the fuck did that come from?
+level_07_EN#0069,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,69,2160,32,1.961,en,So we'll get on that flight!
+level_07_EN#0070,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,70,2192,16,1.052,en,I got him!
+level_07_EN#0071,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,71,2208,16,1.415,en,Shoot her down!
+level_07_EN#0072,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,72,2224,16,1.189,en,Target down!
+level_07_EN#0073,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,73,2240,32,1.894,en,"Cover my flank, I'm moving up."
+level_07_EN#0074,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,74,2272,32,2.826,en,"Get out of there, colors! They're gonna cut you to pieces!"
+level_07_EN#0075,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,75,2304,32,1.891,en,GET ON THE FUCKING CORNER!
+level_07_EN#0076,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,76,2336,32,2.191,en,GET OFF YOUR ASS AND TAKE THEM OUT!
+level_07_EN#0077,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,77,2368,32,1.836,en,"Advance the contact, over!"
+level_07_EN#0078,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,78,2400,48,4.205,en,"Hey, somebody to reorg! Let's push through an RV on the other side!"
+level_07_EN#0079,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,79,2448,32,2.849,en,HEY MAN THEY'RE EVERYWHERE I NEED SUPPORT
+level_07_EN#0080,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,80,2480,32,3.146,en,"Get me some supporting fire, front and center!"
+level_07_EN#0081,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,81,2512,48,3.636,en,Eyes up! Move! Move! Move! I need support!
+level_07_EN#0082,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,82,2560,32,3.157,en,"God damn it, Cutler! Get up there!"
+level_07_EN#0083,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,83,2592,32,2.211,en,ON THE FLAG! ON THE FLAG!
+level_07_EN#0084,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,84,2624,32,2.736,en,Come back to cover! Move now!
+level_07_EN#0086,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,86,2672,32,2.687,en,Overwatch advise! Hustles on the move!
+level_07_EN#0087,-,campaign_dialogue,Catalog,levels/level_07/spch_EN.ssh,levels/level_07/spch_EN.bks,87,2704,32,2.161,en,I'm pinned down! Shooter above us!
+level_08_EN#0000,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,0,0,32,3.038,en,Copy that. Sweeping the ruins.
+level_08_EN#0001,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,1,32,48,4.054,en,I've got a bunker entrance. Moving in. Standing by.
+level_08_EN#0002,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,2,80,112,11.612,en,Advancing below ground. Radio is becoming broken and unclear. We'll update as needed. Over. Did you copy my last? Over. Nothing hurt. Out.
+level_08_EN#0003,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,3,192,64,5.784,en,This is three. I've got a major bunker here. I'm clearing the area. Do you copy? Over.
+level_08_EN#0004,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,4,256,32,3.073,en,Heavy resistance. Engaging targets. Over.
+level_08_EN#0005,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,5,288,80,7.339,en,"I found a ramp going further down. Proceeding to substructure, do you read me? Over. Nothing heard. Three out."
+level_08_EN#0006,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,6,368,80,7.223,en,This is three. This is three. Package may be on site. I say again. Package may be on site. I am advancing to contact. Stand by.
+level_08_EN#0008,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,8,512,80,7.589,en,"Let's not let this asshole get away again. Three, you've got the honors. We'll secure the perimeter in case the shitbag tries to run."
+level_08_EN#0009,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,9,592,48,3.668,en,"Get on your fucking position! You know what to do, Keller."
+level_08_EN#0010,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,10,640,32,2.646,en,I'm starting to think you may not like me.
+level_08_EN#0011,-,campaign_dialogue,Catalog,levels/level_08/spch_EN.ssh,levels/level_08/spch_EN.bks,11,672,64,6.875,en,"Bravo 3, I just had a bunch of hostels run past my position toward the courtyard. A few slip by, you should see them any second."
+global_radio#0000,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,0,0,16,0.984,en,Oh!
+global_radio#0001,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,1,16,16,0.842,en,Huh?
+global_radio#0006,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,6,96,16,0.87,en,Ahem.
+global_radio#0007,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,7,112,16,0.805,en,Huh?
+global_radio#0008,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,8,128,16,1.004,en,Ah!
+global_radio#0009,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,9,144,16,0.907,en,Ah!
+global_radio#0010,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,10,160,16,1.068,en,ARGH!
+global_radio#0011,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,11,176,16,1.049,en,Oh!
+global_radio#0012,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,12,192,16,1.028,en,Ow!
+global_radio#0013,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,13,208,16,1.054,en,ARGH!
+global_radio#0014,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,14,224,16,0.979,en,ARGH!
+global_radio#0015,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,15,240,16,1.073,en,Huh?
+global_radio#0016,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,16,256,16,0.988,en,Oh!
+global_radio#0017,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,17,272,16,0.995,en,OW!
+global_radio#0018,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,18,288,16,0.986,en,Ha!
+global_radio#0020,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,20,320,16,1.104,en,ARGH!
+global_radio#0021,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,21,336,16,1.077,en,Huh!
+global_radio#0022,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,22,352,16,1.042,en,ARGH!
+global_radio#0023,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,23,368,16,1.044,pt,Ah!
+global_radio#0024,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,24,384,16,1.02,en,Huh?
+global_radio#0025,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,25,400,16,0.997,en,AH!
+global_radio#0027,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,27,448,32,1.808,id,PEMOGUIJA!
+global_radio#0028,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,28,480,16,1.525,ru,На полночь!
+global_radio#0029,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,29,496,16,1.482,ru,Медик!
+global_radio#0030,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,30,512,16,1.503,tr,Doktor!
+global_radio#0031,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,31,528,32,1.852,ja,ヘルコアースや!
+global_radio#0033,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,33,592,32,2.26,ru,Тащите сюда населки!
+global_radio#0036,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,36,688,32,2.121,ru,Соберите меня!
+global_radio#0037,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,37,720,32,2.498,ru,Мне нужна эвакуация!
+global_radio#0038,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,38,752,16,1.376,ru,Они тут!
+global_radio#0039,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,39,768,16,1.25,ru,Засада!
+global_radio#0040,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,40,784,16,1.306,ru,Засада!
+global_radio#0041,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,41,800,16,1.488,ru,Нужна помощь!
+global_radio#0042,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,42,816,16,1.406,ru,Цель вижу!
+global_radio#0043,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,43,832,16,1.429,ru,В Украине!
+global_radio#0044,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,44,848,32,1.828,ru,Боевая тревога!
+global_radio#0045,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,45,880,16,1.48,ru,Нападение!
+global_radio#0046,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,46,896,16,1.717,ru,У нас гости!
+global_radio#0047,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,47,912,16,1.717,ru,У нас гости!
+global_radio#0048,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,48,928,16,1.56,ru,Приготовиться!
+global_radio#0049,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,49,944,32,1.797,ru,Держим оборону!
+global_radio#0050,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,50,976,16,1.471,ru,"Давай, давай!"
+global_radio#0052,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,52,1008,16,1.157,ru,Пошли!
+global_radio#0053,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,53,1024,16,1.187,ru,Вперёд!
+global_radio#0054,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,54,1040,16,1.263,ru,Вперед!
+global_radio#0055,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,55,1056,16,1.264,pt,Agón!
+global_radio#0056,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,56,1072,16,1.22,pt,Agонь!
+global_radio#0057,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,57,1088,32,1.777,ru,Отстреливаемся!
+global_radio#0058,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,58,1120,16,1.594,ru,Держать строй!
+global_radio#0059,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,59,1136,16,1.465,ru,Не отступать!
+global_radio#0060,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,60,1152,16,1.599,ru,Ответный огонь!
+global_radio#0061,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,61,1168,16,1.594,el,Цель απόσνανα!
+global_radio#0062,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,62,1184,16,1.401,ru,Есть контакт!
+global_radio#0063,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,63,1200,16,1.405,ru,Есть контакт!
+global_radio#0064,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,64,1216,32,1.575,ru,Цель приближается!
+global_radio#0065,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,65,1248,32,1.663,ru,Цель приближается!
+global_radio#0066,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,66,1280,16,1.406,uk,Цель віжу!
+global_radio#0067,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,67,1296,16,1.011,ru,Пошли!
+global_radio#0068,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,68,1312,16,1.268,ru,Вижу их!
+global_radio#0069,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,69,1328,16,1.383,ru,Наблюдаю!
+global_radio#0070,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,70,1344,16,1.173,ru,Идут!
+global_radio#0071,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,71,1360,16,1.218,ru,Идут!
+global_radio#0072,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,72,1376,16,1.27,ru,Они тут.
+global_radio#0073,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,73,1392,16,1.415,ru,Мы их видим!
+global_radio#0074,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,74,1408,16,1.123,ru,Поехали!
+global_radio#0075,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,75,1424,16,1.207,ru,Целься!
+global_radio#0076,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,76,1440,16,1.196,ja,ストーイ!
+global_radio#0078,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,78,1488,32,2.369,ru,Приготовиться! Погнали!
+global_radio#0079,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,79,1520,16,1.358,ru,На прицеле!
+global_radio#0080,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,80,1536,16,1.562,ru,Выдвигаемся!
+global_radio#0081,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,81,1552,16,1.465,ru,Выдвигаемся!
+global_radio#0082,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,82,1568,16,1.454,ru,У нас гости!
+global_radio#0084,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,84,1600,16,1.239,no,Det er jo veren.
+global_radio#0085,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,85,1616,16,1.062,de,Wieso?
+global_radio#0086,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,86,1632,16,1.657,ru,Сообщение принято!
+global_radio#0087,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,87,1648,16,1.033,ru,Принял.
+global_radio#0088,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,88,1664,16,1.332,ru,Вас понял?
+global_radio#0089,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,89,1680,16,1.451,ru,Держим связь!
+global_radio#0090,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,90,1696,16,1.305,ru,На связи!
+global_radio#0091,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,91,1712,16,1.578,ru,Следим за целью!
+global_radio#0092,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,92,1728,16,1.468,ru,Передай другим!
+global_radio#0093,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,93,1744,16,1.392,ru,Сделаем их!
+global_radio#0094,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,94,1760,16,1.269,ru,Докладывай!
+global_radio#0095,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,95,1776,16,1.415,en,Herpaga!
+global_radio#0096,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,96,1792,16,1.476,ru,Муха!
+global_radio#0097,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,97,1808,16,1.458,es,¡Mucha!
+global_radio#0098,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,98,1824,16,1.606,ru,Гранатомет!
+global_radio#0099,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,99,1840,16,1.375,pt,RAKERDA!
+global_radio#0100,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,100,1856,16,1.55,pt,RACETE!
+global_radio#0101,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,101,1872,16,1.675,ru,ВОЗДУХ!
+global_radio#0102,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,102,1888,16,1.492,ru,Воздух!
+global_radio#0103,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,103,1904,32,1.772,ru,Там снайпер!
+global_radio#0104,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,104,1936,16,1.533,ru,СНАЙПЕР!
+global_radio#0105,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,105,1952,16,1.345,ru,СНАЙПЕР!
+global_radio#0106,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,106,1968,16,1.537,ru,СНАЙПЕР!
+global_radio#0107,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,107,1984,16,1.474,ru,СНАЙПЕР!
+global_radio#0108,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,108,2000,16,1.45,ru,СНАЙПЕР!
+global_radio#0109,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,109,2016,16,1.297,ru,Владом!
+global_radio#0110,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,110,2032,16,1.314,en,Go on on!
+global_radio#0111,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,111,2048,16,1.712,ru,Там снайпер!
+global_radio#0112,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,112,2064,32,1.862,ru,Не высовывайся!
+global_radio#0113,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,113,2096,16,1.59,ru,Всем залечь!
+global_radio#0114,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,114,2112,16,1.45,ru,Залечь!
+global_radio#0116,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,116,2144,16,1.236,ru,Ложись!
+global_radio#0117,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,117,2160,16,1.679,ru,В укрытие!
+global_radio#0118,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,118,2176,16,1.638,uk,В укрытие!
+global_radio#0119,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,119,2192,32,1.848,ru,В укрытие!
+global_radio#0120,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,120,2224,16,1.69,ru,Обезвредим его!
+global_radio#0121,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,121,2240,32,1.717,ru,Пошел в контакт!
+global_radio#0122,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,122,2272,16,1.556,it,Attacco io!
+global_radio#0124,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,124,2304,16,1.551,ru,Атакуем!
+global_radio#0125,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,125,2320,16,1.344,pt,AGÓN!
+global_radio#0126,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,126,2336,16,1.56,ru,Беру на себя!
+global_radio#0127,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,127,2352,16,1.405,ru,Мы рядом!
+global_radio#0128,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,128,2368,32,2.298,ru,Сюда! Он там!
+global_radio#0129,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,129,2400,16,1.542,en,HETAMI!
+global_radio#0130,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,130,2416,32,1.863,pl,"Cześć, zachwaś ona!"
+global_radio#0131,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,131,2448,32,1.826,ru,Открываем огонь!
+global_radio#0132,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,132,2480,16,1.447,it,Vizio!
+global_radio#0133,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,133,2496,16,1.586,ru,Есть контакт!
+global_radio#0134,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,134,2512,32,1.763,ru,Зачистить квадрат!
+global_radio#0136,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,136,2576,32,2.368,ru,Прикрой меня! Атакую!
+global_radio#0137,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,137,2608,16,1.565,ru,Будет сделано!
+global_radio#0138,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,138,2624,16,1.244,ru,Говори!
+global_radio#0139,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,139,2640,16,1.488,ru,Отставить!
+global_radio#0140,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,140,2656,32,2.173,ru,"Осторожно, свои!"
+global_radio#0141,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,141,2688,16,1.363,ru,Понял?
+global_radio#0142,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,142,2704,16,1.413,fr,Podcagez-vous !
+global_radio#0143,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,143,2720,16,1.589,ru,Вижу его!
+global_radio#0144,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,144,2736,16,1.7,ru,Есть! Прием!
+global_radio#0145,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,145,2752,16,1.688,ru,Я вошел в контакт!
+global_radio#0146,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,146,2768,16,1.603,ru,Я на подходе!
+global_radio#0147,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,147,2784,16,1.455,ru,Я с тобой!
+global_radio#0148,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,148,2800,32,1.936,ru,Продолжайте движение!
+global_radio#0149,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,149,2832,16,1.454,pt,"Põe-não, tibia!"
+global_radio#0150,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,150,2848,16,1.496,ru,Все понял?
+global_radio#0151,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,151,2864,32,2.087,ru,Не останавливаться!
+global_radio#0152,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,152,2896,16,1.585,ru,Стой здесь!
+global_radio#0153,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,153,2912,16,1.446,ru,Будь рядом!
+global_radio#0154,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,154,2928,32,1.749,ru,Шар вонет!
+global_radio#0155,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,155,2960,16,1.375,ru,НАБАЛ!
+global_radio#0156,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,156,2976,16,1.467,ru,Ложись!
+global_radio#0157,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,157,2992,16,1.419,ru,Залежь!
+global_radio#0158,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,158,3008,16,1.303,ru,Упали!
+global_radio#0159,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,159,3024,16,1.365,ru,Убрать их!
+global_radio#0160,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,160,3040,32,1.831,ru,Вступаем в бой!
+global_radio#0161,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,161,3072,16,1.675,ru,Целета колонна!
+global_radio#0163,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,163,3104,16,1.352,ru,В бою!
+global_radio#0164,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,164,3120,16,1.533,ru,Открыть огонь!
+global_radio#0165,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,165,3136,16,1.724,ru,Огонь не прекращать!
+global_radio#0166,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,166,3152,16,1.689,ru,Сопровождаем цель!
+global_radio#0167,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,167,3168,32,1.818,ru,Сопровождаем цель!
+global_radio#0168,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,168,3200,16,1.717,ru,Доложить попадание!
+global_radio#0169,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,169,3216,16,1.288,ru,Снять их!
+global_radio#0170,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,170,3232,32,1.751,ru,Доложить попадание!
+global_radio#0173,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,173,3296,32,1.86,ru,Из боя не выходим!
+global_radio#0174,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,174,3328,16,1.707,ru,Оставаться в бою!
+global_radio#0175,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,175,3344,32,1.943,ru,Уточните позицию!
+global_radio#0176,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,176,3376,16,1.114,ru,Есть!
+global_radio#0177,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,177,3392,16,1.716,ru,Не высовываться!
+global_radio#0178,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,178,3408,32,1.841,ru,Держим позиции!
+global_radio#0179,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,179,3440,16,1.474,ru,СТОИ РЯДОМ!
+global_radio#0180,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,180,3456,32,1.601,ru,Раздавим их!
+global_radio#0181,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,181,3488,16,1.492,ru,Огонь!
+global_radio#0182,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,182,3504,16,1.511,ru,СТРЕЛЯЮ!
+global_radio#0183,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,183,3520,16,1.651,ru,Вижу его!
+global_radio#0184,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,184,3536,16,1.724,ru,Я займусь им!
+global_radio#0185,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,185,3552,32,1.802,ru,Продолжать огонь!
+global_radio#0186,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,186,3584,16,1.719,ru,Будет сделано!
+global_radio#0187,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,187,3600,16,1.553,ru,Открыть огонь!
+global_radio#0188,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,188,3616,16,1.222,ru,СТРЕЛЯЙ!
+global_radio#0189,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,189,3632,16,1.485,ru,Зажмём их!
+global_radio#0190,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,190,3648,16,1.391,ru,Взять их!
+global_radio#0191,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,191,3664,16,1.207,ru,Давай!
+global_radio#0192,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,192,3680,16,1.348,ru,Давай их!
+global_radio#0193,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,193,3696,16,1.297,ru,ДАВИМ ЭХ!
+global_radio#0194,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,194,3712,16,1.568,ru,Вижу его!
+global_radio#0195,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,195,3728,16,1.413,ru,Он мой!
+global_radio#0196,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,196,3744,16,1.442,ru,Анмай!
+global_radio#0197,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,197,3760,32,1.7,ru,Цель опознана!
+global_radio#0198,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,198,3792,16,1.466,ru,Вижу в цел!
+global_radio#0199,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,199,3808,16,1.667,ru,Он на прицеле!
+global_radio#0200,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,200,3824,16,1.471,ru,На мушке!
+global_radio#0201,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,201,3840,16,1.616,ru,Гаси его!
+global_radio#0202,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,202,3856,32,1.755,ru,Я им займусь!
+global_radio#0203,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,203,3888,16,1.397,ru,Взять их!
+global_radio#0204,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,204,3904,16,1.581,ru,Приближается!
+global_radio#0205,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,205,3920,16,1.366,ru,Подходит!
+global_radio#0206,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,206,3936,32,1.748,ru,"Всё, отходим!"
+global_radio#0208,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,208,3984,16,1.471,ru,Прикрой меня!
+global_radio#0209,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,209,4000,16,1.338,ru,Прикрываем!
+global_radio#0210,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,210,4016,32,2.024,ru,Двигаться в укрытие!
+global_radio#0211,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,211,4048,32,1.765,ru,Иду в укрытие!
+global_radio#0212,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,212,4080,16,1.417,ru,Прячемся!
+global_radio#0213,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,213,4096,16,1.365,ru,Прячемся!
+global_radio#0214,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,214,4112,16,1.536,ru,Укрыться!
+global_radio#0215,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,215,4128,16,1.332,ru,Уходим!
+global_radio#0216,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,216,4144,16,1.49,ru,Воздух!
+global_radio#0217,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,217,4160,16,1.434,ru,Воздух!
+global_radio#0218,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,218,4176,16,1.689,ru,В укрытие!
+global_radio#0219,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,219,4192,16,1.441,ru,Стой там!
+global_radio#0220,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,220,4208,16,1.289,ru,Ложись!
+global_radio#0221,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,221,4224,16,1.404,ru,Под огнем!
+global_radio#0222,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,222,4240,32,1.761,ru,Пошла жара!
+global_radio#0223,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,223,4272,16,1.644,ru,Плотный огонь!
+global_radio#0224,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,224,4288,32,1.799,ru,В нас стреляют!
+global_radio#0225,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,225,4320,16,1.52,ru,Нас валят!
+global_radio#0226,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,226,4336,16,1.628,ru,Атакованы!
+global_radio#0227,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,227,4352,16,1.629,ru,Под обстрелом!
+global_radio#0228,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,228,4368,32,1.802,ru,Под обстрелом!
+global_radio#0229,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,229,4400,32,1.964,ru,Мы атакованы!
+global_radio#0230,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,230,4432,32,1.703,ru,Мы атакованы!
+global_radio#0231,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,231,4464,16,1.518,ru,Панам бьют!
+global_radio#0232,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,232,4480,16,1.679,ru,Стало жарко!
+global_radio#0233,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,233,4496,16,1.724,ru,Здесь жарко!
+global_radio#0234,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,234,4512,32,1.826,ru,Вражеский огонь!
+global_radio#0236,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,236,4560,16,1.699,ru,Прошу огня!
+global_radio#0237,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,237,4576,32,2.364,ru,Лечь в укрытие!
+global_radio#0238,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,238,4608,16,1.609,ru,По местам!
+global_radio#0239,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,239,4624,16,1.439,ru,Всем лечь!
+global_radio#0240,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,240,4640,16,1.54,ru,Залегли!
+global_radio#0241,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,241,4656,16,1.646,ru,Встречный бой!
+global_radio#0243,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,243,4688,16,1.366,ru,К бою!
+global_radio#0244,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,244,4704,16,1.679,ru,ЗА МНОЙ!
+global_radio#0245,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,245,4720,16,1.414,ru,За мной!
+global_radio#0246,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,246,4736,32,1.763,ru,Возвращаемся!
+global_radio#0247,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,247,4768,32,1.779,ru,Держим линию!
+global_radio#0248,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,248,4800,16,1.673,ru,Держаться!
+global_radio#0249,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,249,4816,32,1.845,ru,Давайте держитесь!
+global_radio#0250,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,250,4848,16,1.527,ru,Открыть огонь!
+global_radio#0251,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,251,4864,16,1.677,ru,Отстреливаемся!
+global_radio#0252,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,252,4880,32,1.932,ru,Не сдаем позиций!
+global_radio#0253,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,253,4912,16,1.594,ru,Держим оборону!
+global_radio#0254,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,254,4928,32,1.854,ru,Нужна поддержка!
+global_radio#0255,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,255,4960,32,1.826,ru,Оставайся со мной!
+global_radio#0256,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,256,4992,32,2.116,ru,Не выходим из боя!
+global_radio#0257,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,257,5024,16,1.322,ru,Муха!
+global_radio#0258,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,258,5040,16,1.571,ru,Ракета!
+global_radio#0259,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,259,5056,16,1.58,ru,Ракеты!
+global_radio#0260,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,260,5072,16,1.299,ru,Ложись!
+global_radio#0261,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,261,5088,16,1.111,ru,Ложись!
+global_radio#0262,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,262,5104,16,1.68,ru,"Пошли, пошли!"
+global_radio#0263,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,263,5120,16,1.279,ru,Рупали!
+global_radio#0264,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,264,5136,16,1.416,ru,Воздух!
+global_radio#0265,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,265,5152,16,1.376,ru,Не вылезать!
+global_radio#0266,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,266,5168,16,1.508,ru,В укрытие!
+global_radio#0267,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,267,5184,16,1.475,ru,Укрываемся!
+global_radio#0269,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,269,5232,32,1.814,ru,Назад! Отходим!
+global_radio#0270,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,270,5264,16,1.17,ru,Чёрт!
+global_radio#0271,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,271,5280,16,1.057,ru,Чёрт!
+global_radio#0272,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,272,5296,16,1.331,ru,Лимонга!
+global_radio#0274,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,274,5328,16,1.426,ru,Сервонят!
+global_radio#0275,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,275,5344,16,1.615,ru,Жалей спал!
+global_radio#0276,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,276,5360,16,1.217,ru,Ложись!
+global_radio#0277,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,277,5376,16,1.398,ru,Укриться!
+global_radio#0278,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,278,5392,16,1.512,ru,Все упали!
+global_radio#0280,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,280,5424,16,0.883,ru,Чуть не...
+global_radio#0281,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,281,5440,16,0.813,ru,Ух!
+global_radio#0282,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,282,5456,16,0.827,ru,Ха!
+global_radio#0283,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,283,5472,16,1.053,ru,ХИТОСА!
+global_radio#0284,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,284,5488,16,0.877,ru,Чё!
+global_radio#0285,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,285,5504,32,1.88,ru,Нас прижали!
+global_radio#0286,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,286,5536,32,2.194,ru,Прошу подкрепления!
+global_radio#0287,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,287,5568,32,2.211,ru,Враг приближается!
+global_radio#0289,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,289,5632,16,1.703,ru,СТРЕЛЯЮТ!
+global_radio#0290,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,290,5648,32,1.77,ru,Здесь жарко!
+global_radio#0291,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,291,5680,16,1.668,ru,Плотный огонь!
+global_radio#0292,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,292,5696,16,1.697,ru,Блотный огонь!
+global_radio#0293,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,293,5712,16,1.648,ru,Нас бьет!
+global_radio#0294,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,294,5728,16,1.667,ru,Нас валят!
+global_radio#0295,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,295,5744,32,2.144,ru,Нас обстреливают!
+global_radio#0296,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,296,5776,32,1.917,ru,Мы под обстрелом!
+global_radio#0297,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,297,5808,32,2.261,ru,Вызывай огонь на себя!
+global_radio#0298,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,298,5840,16,1.623,ru,Всем лечь!
+global_radio#0299,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,299,5856,32,1.944,ru,Вжались в пол!
+global_radio#0300,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,300,5888,32,1.872,ru,В УКРЫТИЕ!
+global_radio#0301,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,301,5920,32,1.843,ru,Наследок ой от!
+global_radio#0302,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,302,5952,32,1.821,ru,Отходим!
+global_radio#0303,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,303,5984,16,1.57,ru,ЛОЖИСЬ!
+global_radio#0305,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,305,6032,32,2.755,ru,Без паники! Мочим их!
+global_radio#0306,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,306,6064,32,1.817,ru,Замкнуть ряды!
+global_radio#0307,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,307,6096,32,2.244,ru,Стоим в обороне!
+global_radio#0308,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,308,6128,32,2.36,ru,Не менять позиции!
+global_radio#0309,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,309,6160,16,1.602,ru,Пперед!
+global_radio#0310,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,310,6176,32,1.956,ru,За мной!
+global_radio#0311,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,311,6208,32,1.906,ru,"Не исходно, я!"
+global_radio#0312,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,312,6240,16,1.297,ru,Хиньям!
+global_radio#0313,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,313,6256,32,1.794,ru,Принимаем бой!
+global_radio#0314,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,314,6288,32,1.818,ru,Никаких шансов!
+global_radio#0315,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,315,6320,16,1.607,ru,НА ПОМАШЬ!
+global_radio#0316,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,316,6336,32,1.968,ru,Нужно было крепление!
+global_radio#0317,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,317,6368,16,1.689,ru,Я окружён!
+global_radio#0318,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,318,6384,16,1.685,ru,Я окружен!
+global_radio#0319,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,319,6400,16,1.724,ru,Нас окружили!
+global_radio#0320,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,320,6416,32,1.846,ru,Нас обстреливают!
+global_radio#0321,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,321,6448,32,1.775,ru,Тут не продохнуть!
+global_radio#0322,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,322,6480,32,1.826,ru,Дэн идут кругом!
+global_radio#0323,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,323,6512,16,1.632,ru,Неседай кольят!
+global_radio#0324,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,324,6528,32,1.884,ru,Они на меня повисли!
+global_radio#0325,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,325,6560,32,1.826,ru,У нас потери!
+global_radio#0326,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,326,6592,32,1.848,ru,У меня проблемы!
+global_radio#0327,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,327,6624,16,1.372,ru,Под огнем!
+global_radio#0328,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,328,6640,16,1.497,ru,Я за тобой!
+global_radio#0329,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,329,6656,16,1.157,ru,Давай!
+global_radio#0330,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,330,6672,16,1.238,ru,Сюда!
+global_radio#0331,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,331,6688,16,1.421,ru,Вас понял?
+global_radio#0332,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,332,6704,16,1.639,ru,Остреливаемся!
+global_radio#0333,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,333,6720,32,1.781,ru,Где они находятся?
+global_radio#0334,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,334,6752,16,1.623,ru,Ступаем в бой!
+global_radio#0335,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,335,6768,16,1.592,ru,Иду под огонь!
+global_radio#0336,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,336,6784,16,1.576,ru,Все на месте!
+global_radio#0337,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,337,6800,16,1.039,ru,Пусти!
+global_radio#0338,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,338,6816,16,0.917,ru,Ха!
+global_radio#0339,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,339,6832,16,1.14,ru,Хабьер!
+global_radio#0340,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,340,6848,16,0.928,ru,Хм!
+global_radio#0341,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,341,6864,16,0.912,ru,БАХ!
+global_radio#0342,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,342,6880,16,1.544,ru,Смотреть в оба!
+global_radio#0343,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,343,6896,16,1.191,ru,Где он?
+global_radio#0344,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,344,6912,16,1.158,ru,Где он?
+global_radio#0345,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,345,6928,16,1.271,ru,Оно шоу?
+global_radio#0346,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,346,6944,16,1.338,ru,Не вижу его.
+global_radio#0347,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,347,6960,16,1.52,ru,Я его потерял.
+global_radio#0348,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,348,6976,16,1.688,ru,Мы потеряли контакт.
+global_radio#0349,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,349,6992,16,1.721,ru,Я потерял контакт.
+global_radio#0350,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,350,7008,16,1.453,ru,Будь начеку!
+global_radio#0351,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,351,7024,16,1.562,ru,Не расслабляться!
+global_radio#0352,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,352,7040,16,1.648,ru,Куда они подевались?
+global_radio#0353,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,353,7056,16,1.565,ru,Контакт утерян.
+global_radio#0354,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,354,7072,16,1.557,ru,Никаких признаков.
+global_radio#0355,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,355,7088,16,1.153,ru,Ничего.
+global_radio#0356,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,356,7104,16,1.453,ru,Нет патронов!
+global_radio#0358,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,358,7136,16,1.411,ru,Меняю обойму.
+global_radio#0359,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,359,7152,16,1.573,ru,Снаряжаю магазин.
+global_radio#0360,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,360,7168,16,1.536,ru,Заряжаю автомат!
+global_radio#0362,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,362,7200,16,1.265,ru,Заряжаю!
+global_radio#0363,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,363,7216,16,1.449,ru,Последний магазин.
+global_radio#0364,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,364,7232,16,1.537,ru,Остался последний.
+global_radio#0365,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,365,7248,16,1.614,ru,Мне нужно зарядиться.
+global_radio#0366,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,366,7264,16,1.352,ru,Снаряжаю!
+global_radio#0367,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,367,7280,16,1.387,ru,Продвигайся!
+global_radio#0368,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,368,7296,16,1.585,ru,Обходим их слева.
+global_radio#0369,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,369,7312,16,1.577,ru,Обходим их справа!
+global_radio#0370,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,370,7328,16,1.125,ru,Вперёд!
+global_radio#0371,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,371,7344,16,1.066,ru,Теама!
+global_radio#0372,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,372,7360,32,1.776,ru,Идём разбираться с ними.
+global_radio#0373,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,373,7392,16,1.665,ru,Готов? Пошел!
+global_radio#0374,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,374,7408,32,1.856,ru,Идём разбираться с ними!
+global_radio#0375,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,375,7440,32,2.179,ru,"Идём, разберёмся с ними."
+global_radio#0376,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,376,7472,16,1.464,ru,Закрепиться!
+global_radio#0377,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,377,7488,16,1.39,ru,Закрепиться!
+global_radio#0378,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,378,7504,32,1.817,ru,"Быстрее, пошевеливаемся!"
+global_radio#0379,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,379,7536,16,1.337,ru,На позиции!
+global_radio#0380,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,380,7552,16,1.586,ru,"Так, выдвигаемся."
+global_radio#0381,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,381,7568,16,1.158,ru,На выход!
+global_radio#0382,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,382,7584,32,1.886,ru,Подтянулись справа.
+global_radio#0383,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,383,7616,16,1.528,ru,Двигайся вперед!
+global_radio#0384,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,384,7632,16,1.679,ru,Держимся крепче!
+global_radio#0385,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,385,7648,32,2.06,ru,Держим боевой порядок!
+global_radio#0386,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,386,7680,16,1.565,ru,Держим строй!
+global_radio#0387,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,387,7696,16,1.296,ru,Мы готовы!
+global_radio#0388,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,388,7712,16,1.724,ru,Меняем позицию.
+global_radio#0389,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,389,7728,16,1.687,ru,Перегруппироваться!
+global_radio#0390,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,390,7744,16,1.278,ru,Вон там!
+global_radio#0391,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,391,7760,16,1.331,ru,Вон туда!
+global_radio#0392,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,392,7776,16,1.405,ru,Шевелись!
+global_radio#0393,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,393,7792,16,1.614,ru,Осматриваемся!
+global_radio#0394,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,394,7808,16,1.435,ru,Осторожнее!
+global_radio#0395,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,395,7824,16,1.26,ru,Назад!
+global_radio#0396,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,396,7840,16,1.529,ru,За работу!
+global_radio#0397,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,397,7856,16,1.724,ru,Приступить к работе!
+global_radio#0398,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,398,7872,16,1.346,ru,Продолжаем.
+global_radio#0399,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,399,7888,16,1.392,ru,Продолжаем!
+global_radio#0400,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,400,7904,16,1.225,ru,Повесли!
+global_radio#0401,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,401,7920,16,1.389,ru,Без ошибок!
+global_radio#0403,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,403,7952,32,1.848,ru,Хреновая ситуация!
+global_radio#0404,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,404,7984,16,1.527,ru,Перестроятся!
+global_radio#0405,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,405,8000,16,1.512,ru,Перестроятся!
+global_radio#0406,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,406,8016,32,1.939,ru,Хреновая ситуация!
+global_radio#0407,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,407,8048,16,1.428,ru,Оступаем!
+global_radio#0408,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,408,8064,16,1.43,ru,Отступаем!
+global_radio#0409,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,409,8080,16,1.708,ru,Занимаем периметр!
+global_radio#0410,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,410,8096,16,1.426,ru,Смещаюсь!
+global_radio#0411,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,411,8112,16,1.328,ru,Отходим!
+global_radio#0412,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,412,8128,16,1.161,ru,Отходим!
+global_radio#0413,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,413,8144,16,1.675,ru,Зайон позицию!
+global_radio#0414,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,414,8160,16,1.612,ru,Занял позицию.
+global_radio#0415,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,415,8176,16,1.721,ru,Здесь ближний бой!
+global_radio#0416,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,416,8192,32,1.789,ru,Двигаемся по этой дороге!
+global_radio#0417,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,417,8224,16,1.724,ru,Подтягиваемся!
+global_radio#0418,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,418,8240,16,1.602,ru,Подтянулись!
+global_radio#0419,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,419,8256,32,1.814,ru,Отметь мою позицию!
+global_radio#0420,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,420,8288,16,1.691,ru,"Отметь, где я!"
+global_radio#0421,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,421,8304,16,1.172,ru,Берегись!
+global_radio#0422,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,422,8320,32,1.977,ru,"Шевелимся, шевелимся!"
+global_radio#0423,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,423,8352,32,1.851,ru,"Двигаемся, двигаемся!"
+global_radio#0424,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,424,8384,32,1.834,ru,"Пошли, пошли, пошли!"
+global_radio#0425,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,425,8416,16,1.331,ru,Ожидайте!
+global_radio#0426,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,426,8432,16,1.129,ru,Сюда!
+global_radio#0427,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,427,8448,32,1.84,ru,Ждать моей команды!
+global_radio#0428,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,428,8480,16,1.685,ru,Всем выйти на связь!
+global_radio#0429,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,429,8496,16,1.286,ru,На связи!
+global_radio#0430,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,430,8512,16,1.242,ru,Так точно!
+global_radio#0431,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,431,8528,16,1.079,ru,Гошим!
+global_radio#0432,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,432,8544,16,1.303,ru,Двигаемся!
+global_radio#0434,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,434,8576,16,1.349,ru,Прочесать местность.
+global_radio#0435,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,435,8592,16,1.127,ru,Заперлись.
+global_radio#0436,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,436,8608,32,1.769,ru,Схема поиска альфа.
+global_radio#0437,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,437,8640,16,1.442,ru,Смена позиции.
+global_radio#0438,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,438,8656,16,1.016,ru,Пошли!
+global_radio#0439,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,439,8672,16,1.077,ru,Пошли!
+global_radio#0440,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,440,8688,16,1.241,ru,Двигаемся!
+global_radio#0441,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,441,8704,16,1.477,ru,А храняй периметр!
+global_radio#0442,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,442,8720,32,1.731,ru,Наваливаемся по флангам!
+global_radio#0443,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,443,8752,16,1.568,ru,Наваливаемся слева.
+global_radio#0444,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,444,8768,16,1.644,ru,Наваливаемся справа!
+global_radio#0445,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,445,8784,16,1.345,ru,Сближаюсь!
+global_radio#0446,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,446,8800,16,1.468,ru,Рассредоточиться!
+global_radio#0447,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,447,8816,16,1.355,ru,"Пошел, пошел!"
+global_radio#0448,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,448,8832,16,1.427,ru,Отходим!
+global_radio#0449,-,global_radio,Catalog,levels/global/Speech.ssh,levels/global/Speech.bks,449,8848,16,1.417,ru,Отступаем!
