@@ -1,0 +1,9 @@
+# The retail game's own files and anything extracted from them: not ours to redistribute.
+/assets/
+
+# Runtime output: save-data stubs, debug logs, and per-player settings generated on first run.
+/hdd/
+/hdd_guest/
+/hdd_host/
+/logs/
+/black.toml
