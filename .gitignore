@@ -2,11 +2,16 @@
 # (the folder itself stays, via assets/README.txt, so it exists for you to drop your files into)
 /assets/*
 !/assets/README.txt
+# the remote players' animation clips: converted for the mod, not the game's own data
+!/assets/anim/
+/assets/anim/*
+!/assets/anim/body.bca
 
 # Runtime output: save-data stubs, debug logs, and per-player settings generated on first run.
 /hdd/
-/hdd_guest/
+/hdd_guest*/
 /hdd_host/
 /logs/
 /black.toml
 __pycache__/
+/tdm-favorites.txt

@@ -7,7 +7,7 @@ An experimental **Team Deathmatch multiplayer mod** for *Black* (2006, original 
 Community & support: [Discord](https://discord.gg/szt9HJYjDt) · [Sponsor this project](#support-this-project)
 
 > [!IMPORTANT]
-> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`3cea546`](https://github.com/Peterson047/BLACK-Coop/commit/3cea546)).
+> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`b2d998b`](https://github.com/Peterson047/BLACK-Coop/commit/b2d998b)).
 
 ## Screenshots
 
@@ -21,6 +21,7 @@ The base port is a faithful native recompile of *Black* — keyboard/mouse, a Vu
 
 - **Team Deathmatch**: Black Ops vs. Seventh Wave, in Veblensk, up to 8 players.
 - **LAN discovery** and **direct-IP** hosting/joining, with the game and discovery ports configurable independently (see [Networking](#networking) below).
+- **Dedicated servers**: join a standalone server by IP. The server takes no player slot and never appears in the match.
 - A shared weapon arsenal (pistols, SMGs, rifles) selectable from an in-match loadout menu.
 
 ## Requirements
@@ -51,6 +52,7 @@ This is an unofficial, fan-made project with no affiliation to the original deve
    windows\join.bat <host-ip> [name]
    ```
    Or use the in-game menu (`F10` → Multiplayer) for a server browser, instead of the scripts.
+5. **Join a dedicated server**: `windows\join.bat <server-ip>`, or `F10` → **Connect to Server**, type `ip:port` (for example `203.0.113.10:1508`) and press **Connect**. Leave *Secure session (TLS)* closed: the identity file is only for the experimental TLS servers.
 
 If `Black.iso` isn't in `assets\` (you used the extracted files instead), or no Python interpreter is found, multiplayer stays off until you run `windows\setup.bat` by hand — single player is unaffected either way.
 
@@ -71,7 +73,7 @@ Firewall: on first run, Windows will prompt to allow `BLACK.exe` on private netw
 
 ## Status
 
-Alpha. Tested on this build: Vulkan initialization (including a fix for a swapchain synchronization bug that could corrupt textures/geometry on AMD GPUs), the automatic first-run multiplayer package build, LAN discovery, hosting, joining, and a full TDM match end to end. The dedicated TLS session server (a separate, still-experimental feature in the source project) is **not** part of this build.
+Alpha. Tested on this build: Vulkan initialization (including a fix for a swapchain synchronization bug that could corrupt textures/geometry on AMD GPUs), the automatic first-run multiplayer package build, LAN discovery, hosting, joining, and a full TDM match end to end. Joining a Linux dedicated server over the internet was tested with two clients. The TLS session server (a separate, still-experimental feature in the source project) is not part of this build; the client side is, behind the *Secure session (TLS)* option.
 
 Found a bug? Open an issue against the source repository, [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop), and include the relevant file from the `logs\` folder that's created next to `BLACK.exe`.
 
@@ -83,7 +85,8 @@ Questions, bug reports, LAN parties, looking for people to play with — join th
 
 - [**BLACK-XBERecomp**](https://github.com/TGP482/BLACK-XBERecomp) — the original native recompilation of *Black*. This multiplayer mod, and this Windows build, would not exist without it.
 - [XboxXBE-Recomp](https://github.com/TGP482/XboxXBE-Recomp) — the static recompilation toolchain BLACK-XBERecomp (and this mod) is built with.
-- This binary statically links a few permissively-licensed third-party libraries (the SDK itself, toml++, Dear ImGui, SDL) — see [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) for their full license texts.
+- This binary statically links a few permissively-licensed third-party libraries (the SDK itself, toml++, Dear ImGui, SDL) and loads OpenSSL from the bundled DLLs — see [`THIRD-PARTY-NOTICES.txt`](THIRD-PARTY-NOTICES.txt) for their full license texts.
+- Remote player animations: "Human Soldier Animations 2.0 FREE" by [Kevin Iglesias](https://www.keviniglesias.com/), converted for this mod.
 
 ## Support this project
 

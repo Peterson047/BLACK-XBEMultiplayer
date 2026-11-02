@@ -10,6 +10,15 @@ package (https://www.python.org/), used at runtime to build the multiplayer map 
 arsenal from your own disc image. It's under the Python Software Foundation License; the
 full text ships with it at python\LICENSE.txt.
 
+libssl-4-x64.dll and libcrypto-4-x64.dll are unmodified OpenSSL 4.1 libraries
+(https://www.openssl.org/), loaded by BLACK.exe for the TLS TDM session. OpenSSL is under
+the Apache License 2.0; the full text is at licenses\OpenSSL-LICENSE.txt.
+
+assetsnimody.bca holds the remote players' animation clips, converted for this mod
+from "Human Soldier Animations 2.0 FREE" by Kevin Iglesias (https://www.keviniglesias.com/),
+used under the author's royalty-free license. The clips are licensed for use within this
+mod only: do not extract or redistribute them on their own.
+
 
 XboxXBE-Recomp SDK (https://github.com/TGP482/XboxXBE-Recomp)
 
