@@ -7,7 +7,7 @@ An experimental **Team Deathmatch multiplayer mod** for *Black* (2006, original 
 Community & support: [Discord](https://discord.gg/szt9HJYjDt) · [Sponsor this project](#support-this-project)
 
 > [!IMPORTANT]
-> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`63e0464`](https://github.com/Peterson047/BLACK-Coop/commit/63e0464)).
+> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`fcaa603`](https://github.com/Peterson047/BLACK-Coop/commit/fcaa603)).
 
 ## Screenshots
 
@@ -27,7 +27,7 @@ The base port is a faithful native recompile of *Black* — keyboard/mouse, a Vu
 
 - Windows 10 or 11, 64-bit.
 - A GPU with Vulkan 1.2 support (NVIDIA, AMD or Intel, with an up-to-date driver).
-- Python 3 on `PATH` — only needed once, to build the multiplayer map/arsenal from your disc image.
+- Python 3 on `PATH` — `BLACK.exe` uses it once, automatically, to build the multiplayer map/arsenal from your disc image on first run.
 - **Your own legal copy of *Black***. See below.
 
 ## You need your own copy of the game
@@ -40,21 +40,18 @@ This is an unofficial, fan-made project with no affiliation to the original deve
 ## Setup
 
 1. Download this build and put your own `Black.iso` (or `default.xbe` + the extracted `chars`, `data`, `export`, `language`, `levels`, `sound` and `videos` folders) inside `assets\`.
-2. **Campaign / single player**: just run `BLACK.exe`.
-3. **Multiplayer, first time only** (needs `Black.iso` in `assets\`):
-   ```bat
-   windows\setup.bat
-   ```
-   This builds the TDM map package and weapon arsenal from your disc image.
-4. **Host a match**:
+2. Run `BLACK.exe`. If it found a `Black.iso` in `assets\`, it builds the TDM map package and weapon arsenal from it automatically the first time (a few seconds, logged as `setup: building the multiplayer package...`) — no extra step needed.
+3. **Host a match**:
    ```bat
    windows\host.bat [port] [name]
    ```
-5. **Join a match**:
+4. **Join a match**:
    ```bat
    windows\join.bat <host-ip> [name]
    ```
    Or use the in-game menu (`F10` → Multiplayer) for a server browser, instead of the scripts.
+
+If `Black.iso` isn't in `assets\` (you used the extracted files instead), or no Python interpreter is found, multiplayer stays off until you run `windows\setup.bat` by hand — single player is unaffected either way.
 
 Both sides of a match need to be running **the same build** — the protocol does not negotiate versions between different builds.
 
@@ -73,7 +70,7 @@ Firewall: on first run, Windows will prompt to allow `BLACK.exe` on private netw
 
 ## Status
 
-Alpha. Tested on this build: Vulkan initialization (including a fix for a swapchain synchronization bug that could corrupt textures/geometry on AMD GPUs), LAN discovery, hosting, joining, and a full TDM match end to end. The dedicated TLS session server (a separate, still-experimental feature in the source project) is **not** part of this build.
+Alpha. Tested on this build: Vulkan initialization (including a fix for a swapchain synchronization bug that could corrupt textures/geometry on AMD GPUs), the automatic first-run multiplayer package build, LAN discovery, hosting, joining, and a full TDM match end to end. The dedicated TLS session server (a separate, still-experimental feature in the source project) is **not** part of this build.
 
 Found a bug? Open an issue against the source repository, [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop), and include the relevant file from the `logs\` folder that's created next to `BLACK.exe`.
 

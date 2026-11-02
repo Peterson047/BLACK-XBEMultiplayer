@@ -5,5 +5,6 @@ Either:
   - default.xbe plus the extracted chars, data, export, language, levels,
     sound and videos folders from your own copy of the disc.
 
-Then run windows\setup.bat once if you want multiplayer (Team Deathmatch),
-and BLACK.exe to play.
+If Black.iso is here, BLACK.exe builds the multiplayer map and weapon
+arsenal from it automatically the first time you run it (needs Python 3
+on PATH). Otherwise, run windows\setup.bat by hand once you have Python 3.
