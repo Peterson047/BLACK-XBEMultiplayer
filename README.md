@@ -7,7 +7,7 @@ An experimental **Team Deathmatch multiplayer mod** for *Black* (2006, original 
 Community & support: [Discord](https://discord.gg/szt9HJYjDt) · [Sponsor this project](#support-this-project)
 
 > [!IMPORTANT]
-> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`678a637`](https://github.com/Peterson047/BLACK-Coop/commit/678a637)).
+> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`45c4167`](https://github.com/Peterson047/BLACK-Coop/commit/45c4167)).
 
 ## Screenshots
 
@@ -49,14 +49,14 @@ This is an unofficial, fan-made project with no affiliation to the original deve
    ```
 4. **Join a match**:
    ```bat
-   windows\join.bat <host-ip> [name]
+   windows\join.bat <host-ip> [name] [password]
    ```
    Or use the in-game menu (`F10` → Multiplayer) for a server browser, instead of the scripts.
-5. **Join a dedicated server**: `windows\join.bat <server-ip>`, or `F10` → **Connect to Server**, type `ip:port` (for example `203.0.113.10:1508`) and press **Connect**. Leave *Secure session (TLS)* closed: the identity file is only for the experimental TLS servers.
+5. **Join a dedicated server**: `windows\join.bat <server-ip>`, or `F10` → **Connect to Server**, type your name and `ip:port` (for example `203.0.113.10:1508`) and press **Connect**. Fill in *Password* only if the server asks for one. The name and the last address are remembered for the next time. Leave *Secure session (TLS)* closed: the identity file is only for the experimental TLS servers.
 
 If `Black.iso` isn't in `assets\` (you used the extracted files instead), or no Python interpreter is found, multiplayer stays off until you run `windows\setup.bat` by hand — single player is unaffected either way.
 
-Both sides of a match need to be running **the same build** — the protocol does not negotiate versions between different builds.
+Both sides of a match need to be running **the same version**. Since v0.3 a server tells an older (or newer) client so instead of letting it in half-working: if you see *"This server runs a different version of the game"*, download the latest release.
 
 ## Networking
 
