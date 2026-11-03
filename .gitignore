@@ -6,6 +6,9 @@
 !/assets/anim/
 /assets/anim/*
 !/assets/anim/body.bca
+# multiplayer killmark badges
+!/assets/mark/
+!/assets/mark/*
 
 # Runtime output: save-data stubs, debug logs, and per-player settings generated on first run.
 /hdd/

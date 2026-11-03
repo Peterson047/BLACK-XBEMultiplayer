@@ -7,7 +7,7 @@ An experimental **Team Deathmatch multiplayer mod** for *Black* (2006, original 
 Community & support: [Discord](https://discord.gg/szt9HJYjDt) · [Sponsor this project](#support-this-project)
 
 > [!IMPORTANT]
-> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`45c4167`](https://github.com/Peterson047/BLACK-Coop/commit/45c4167)).
+> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`23625c9`](https://github.com/Peterson047/BLACK-Coop/commit/23625c9)).
 
 ## Screenshots
 
@@ -23,6 +23,11 @@ The base port is a faithful native recompile of *Black* — keyboard/mouse, a Vu
 - **LAN discovery** and **direct-IP** hosting/joining, with the game and discovery ports configurable independently (see [Networking](#networking) below).
 - **Dedicated servers**: join a standalone server by IP. The server takes no player slot and never appears in the match.
 - A shared weapon arsenal (pistols, SMGs, rifles) selectable from an in-match loadout menu.
+- **CrossFire-style animated Killmarks**: Headshot, Multi-kills (1x to 6x), Knife/Melee, Grenade, First Kill, Revenge, and Last Kill badges.
+- **Hit Feedback**: On-crosshair hit markers (white on hit, red on headshot) and LOS-checked enemy nameplates.
+- **Modern Controls**: Sprint on `Shift` (+40% speed), Crouch on `Ctrl`, Sniper scope zoom on mouse wheel, and customizable key bindings.
+- **Dedicated Network Thread**: Decoupled network and render loops for smooth tick rate, stable ping, and reliable hit registration.
+- **Audio Limiter**: Stereo peak limiter preventing distortion and noise on radio kill lines and announcer messages.
 
 ## Requirements
 
