@@ -7,7 +7,7 @@ An experimental **Team Deathmatch multiplayer mod** for *Black* (2006, original 
 Community & support: [Discord](https://discord.gg/szt9HJYjDt) · [Sponsor this project](#support-this-project)
 
 > [!IMPORTANT]
-> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`23625c9`](https://github.com/Peterson047/BLACK-Coop/commit/23625c9)).
+> **This is a binary-only alpha test build.** This repository contains a compiled `BLACK.exe` and the small helper scripts around it — **no source code**. The full source for the Windows port, including this build's exact commit, lives in the [`BLACK-Coop`](https://github.com/Peterson047/BLACK-Coop) repository, branch [`feat/windows-multiplayer`](https://github.com/Peterson047/BLACK-Coop/tree/feat/windows-multiplayer) (built from commit [`095488c`](https://github.com/Peterson047/BLACK-Coop/commit/095488c)).
 
 ## Screenshots
 
@@ -25,9 +25,11 @@ The base port is a faithful native recompile of *Black* — keyboard/mouse, a Vu
 - A shared weapon arsenal (pistols, SMGs, rifles) selectable from an in-match loadout menu.
 - **CrossFire-style animated Killmarks**: Headshot, Multi-kills (1x to 6x), Knife/Melee, Grenade, First Kill, Revenge, and Last Kill badges.
 - **Hit Feedback**: On-crosshair hit markers (white on hit, red on headshot) and LOS-checked enemy nameplates.
-- **Modern Controls**: Sprint on `Shift` (+40% speed), Crouch on `Ctrl`, Sniper scope zoom on mouse wheel, and customizable key bindings.
+- **Modern Controls**: Sprint on `Shift` (+50% speed), Crouch on `Ctrl`, Sniper scope zoom on mouse wheel, and customizable key bindings.
 - **Dedicated Network Thread**: Decoupled network and render loops for smooth tick rate, stable ping, and reliable hit registration.
 - **Audio Limiter**: Stereo peak limiter preventing distortion and noise on radio kill lines and announcer messages.
+- **Footsteps**: hear the other players walking and running, in 3D, from the game's own step sounds. Crouched players are silent.
+- **Server browser**: one list with the official server, your favorites and LAN servers, refreshed on its own; double-click to join.
 
 ## Requirements
 
@@ -57,7 +59,7 @@ This is an unofficial, fan-made project with no affiliation to the original deve
    windows\join.bat <host-ip> [name] [password]
    ```
    Or use the in-game menu (`F10` → Multiplayer) for a server browser, instead of the scripts.
-5. **Join a dedicated server**: `windows\join.bat <server-ip>`, or `F10` → **Connect to Server**, type your name and `ip:port` (for example `203.0.113.10:1508`) and press **Connect**. Fill in *Password* only if the server asks for one. The name and the last address are remembered for the next time. Leave *Secure session (TLS)* closed: the identity file is only for the experimental TLS servers.
+5. **Join a dedicated server**: `windows\join.bat <server-ip>`, or `F10` → **Play online**: double-click the official server, or open **Direct connect**, type your name and `ip:port` (for example `203.0.113.10:1508`) and press **Connect**. Fill in *Password* only if the server asks for one. The name and the last address are remembered for the next time. Leave *Advanced: secure session (TLS)* closed: the identity file is only for the experimental TLS servers.
 
 If `Black.iso` isn't in `assets\` (you used the extracted files instead), or no Python interpreter is found, multiplayer stays off until you run `windows\setup.bat` by hand — single player is unaffected either way.
 
